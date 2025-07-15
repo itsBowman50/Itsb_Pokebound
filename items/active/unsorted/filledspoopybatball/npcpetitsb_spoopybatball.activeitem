@@ -1,0 +1,75 @@
+{
+  "itemName" : "npcpetitsb_spoopybatball",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "throwableItem",
+  "description" : "Throw it down to release the creature captured inside!",
+  "shortdescription" : "Filled Spoopy Batball",
+  "tooltipKind" : "filleditsb_spoopybatball",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged"],
+
+  "inventoryIcon" : "filleditsb_spoopybatballicon.png",
+  "animation" : "filleditsb_spoopybatball.animation",
+  "animationParts" : {
+    "filleditsb_spoopybatball" : "filleditsb_spoopybatball.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["npcpetitsb_spoopybatball.lua"],
+
+  "icons" : {
+    "healthy" : "/items/active/unsorted/filledspoopybatball/filleditsb_spoopybatballicon.png",
+    "dead" : "/items/active/unsorted/filledspoopybatball/filleditsb_spoopybatballicondead.png"
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "duration" : 0.1,
+      "transitionFunction" : "fire",
+      "armRotation" : 70,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "throw" : {
+      "armRotation" : 0,
+      "animationState" : {
+        "weapon" : "hidden"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  },
+
+  "projectileType" : "filleditsb_spoopybatball",
+  "projectileParameters" : {
+    "speed" : 40,
+    "level" : 0
+  },
+
+  "pets" : [
+    "itsb_caterpie",
+    "itsb_eevee",
+    "itsb_jolteon",
+    "itsb_flareon",
+    "itsb_pikachu",
+    "itsb_charmander",
+    "itsb_bulbasaur",
+    "itsb_ivysaur",
+    "itsb_venusaur",
+    "itsb_oddish",
+    "itsb_mew",
+    "itsb_spearow",
+    "itsb_pikatop"
+  ]
+}

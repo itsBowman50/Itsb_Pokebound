@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "siliconboard", "count" : 1 },
+    { "item" : "processor", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "itsb_porygonegg",
+    "count" : 1
+  },
+  "groups" : [ "pokecraftstation", "other" ]
+}

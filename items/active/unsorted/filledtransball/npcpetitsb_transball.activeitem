@@ -1,0 +1,75 @@
+{
+  "itemName" : "npcpetitsb_transball",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "description" : "Throw it down to release the creature captured inside!",
+  "shortdescription" : "Filled Transparent Pokeball",
+  "tooltipKind" : "filleditsb_transball",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged"],
+
+  "inventoryIcon" : "filleditsb_transballicon.png",
+  "animation" : "filleditsb_transball.animation",
+  "animationParts" : {
+    "filleditsb_transball" : "filleditsb_transball.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["npcpetitsb_transball.lua"],
+
+  "icons" : {
+    "healthy" : "/items/active/unsorted/filleditsb_transball/filleditsb_transballicon.png",
+    "dead" : "/items/active/unsorted/filleditsb_transball/filleditsb_transballicondead.png"
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "duration" : 0.1,
+      "transitionFunction" : "fire",
+      "armRotation" : 70,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "throw" : {
+      "armRotation" : 0,
+      "animationState" : {
+        "weapon" : "hidden"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  },
+
+  "projectileType" : "filleditsb_transball",
+  "projectileParameters" : {
+    "speed" : 40,
+    "level" : 0
+  },
+
+  "pets" : [
+    "itsb_caterpie",
+    "itsb_eevee",
+    "itsb_jolteon",
+    "itsb_flareon",
+    "itsb_pikachu",
+    "itsb_charmander",
+    "itsb_bulbasaur",
+    "itsb_ivysaur",
+    "itsb_venusaur",
+    "itsb_oddish",
+    "itsb_mew",
+    "itsb_spearow",
+    "itsb_pikatop"
+  ]
+}

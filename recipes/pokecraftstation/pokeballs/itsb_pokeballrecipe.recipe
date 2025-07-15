@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "redapricorn", "count" : 1 },
+    { "item" : "whiteapricorn", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "itsb_pokeball",
+    "count" : 1
+  },
+  "groups" : [ "pokecraftstation", "pokeballs" ]
+}

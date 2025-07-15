@@ -1,0 +1,11 @@
+{
+  "itemName" : "blackapricorn",
+  "price" : 75,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "blackapricorn.png",
+  "description" : "These are black apricorns. They are use to make different types of Pokeballs.",
+  "shortdescription" : "Black Apricorn",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [ "itsb_ultraball", "itsb_spoopybatball" ]
+}

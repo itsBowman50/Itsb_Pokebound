@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "milk", "count" : 1 },
+    { "item" : "sugar", "count" : 1 },
+	{ "item" : "chestoberry", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "chestoberryshake",
+    "count" : 1
+  },
+  "groups" : [ "pokecraftstation", "other" ]
+}

@@ -1,0 +1,23 @@
+{
+  "frameGrid" : {
+    "size" : [17, 10],
+    "dimensions" : [5, 1],
+
+    "names" : [
+      [ "healthy.1", "healthy.2", "healthy.3", "healthy.4", "dead.1" ]
+    ]
+  },
+  "aliases" : {
+  	"healthy.5" : "healthy.4",
+  	"healthy.6" : "healthy.3",
+  	"healthy.7" : "healthy.2",
+  	"healthy.8" : "healthy.1",
+  	"dead.2" : "dead.1",
+  	"dead.3" : "dead.1",
+  	"dead.4" : "dead.1",
+  	"dead.5" : "dead.1",
+  	"dead.6" : "dead.1",
+  	"dead.7" : "dead.1",
+  	"dead.8" : "dead.1"
+  }
+}

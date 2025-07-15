@@ -1,0 +1,29 @@
+{
+  "projectileName" : "itsb_maxpotion",
+  "physics" : "friendlybubble",
+  "bounces" : -1,
+  "image" : "itsb_maxpotion.png",
+  "fullbright" : true,
+  "lightColor" : [210, 0, 218],
+  "animationCycle" : 0.75,
+  "frameNumber" : 10,
+  "power" : 0,
+  "speed" : 0,
+  "actionOnReap" : [],
+  "onlyHitTerrain" : true,
+
+  "orientationLocked" : true,
+
+  "timeToLive" : 8,
+
+  "scripts" : ["/projectiles/unsorted/itsb_potion/itsb_maxpotion/itsb_maxpotion.lua"],
+  "scriptDelta" : 10,
+
+  "pickupRange" : 2,
+  "snapRange" : 5,
+  "snapSpeed" : 150,
+  "snapForce" : 250,
+
+  "restoreBase" : 0,
+  "restorePercentage" : 100
+}

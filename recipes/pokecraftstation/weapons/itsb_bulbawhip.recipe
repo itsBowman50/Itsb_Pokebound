@@ -1,0 +1,24 @@
+{
+  "input": [
+    {
+      "item": "grasspokenite",
+      "count": 3
+    },
+    {
+      "item": "poisonpokenite",
+      "count": 3
+    },
+    {
+      "item": "bulbavine",
+      "count": 1
+    }
+  ],
+  "output": {
+    "item": "itsb_bulbawhip",
+    "count": 1
+  },
+  "groups": [
+    "pokecraftstation",
+    "weapons"
+  ]
+}

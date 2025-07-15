@@ -1,0 +1,40 @@
+{
+  "objectName" : "itsb_pokecentersign",
+  "colonyTags" : ["glitch","glitchvillage","commerce"],
+  "rarity" : "Common",
+  "description" : "A sign advertising a place to rest your head.",
+  "shortdescription" : "PokeCenter Sign",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 55,
+
+  "apexDescription" : "A sign for a PokeCenter.",
+  "avianDescription" : "It says \"PokeCenter\".",
+  "floranDescription" : "Sssign for a PokeSssenter.",
+  "glitchDescription" : "Comforted. A sign that indicates an PokeCenter.",
+  "humanDescription" : "Looks like the sign for a PokeCenter.",
+  "hylotlDescription" : "This is the sign for a PokeCenter.",
+  "novakidDescription" : "Must be a PokeCenter.",
+
+  "inventoryIcon" : "itsb_pokecentersignicon.png",
+  "orientations" : [
+    {
+      "image" : "itsb_pokecentersign.png:<color>",
+      "imagePosition" : [-8, -8],
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, -1], [0, -1], [1, -1] ],
+      "fgAnchors" : [ [-2, 0], [2, 0] ]
+    },
+    {
+      "image" : "itsb_pokecentersignleft.png:<color>",
+      "imagePosition" : [-8, -8],
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, -1], [0, -1], [1, -1] ],
+      "fgAnchors" : [ [-2, 0] ]
+    },
+    {
+      "image" : "itsb_pokecentersignright.png:<color>",
+      "imagePosition" : [-8, -8],
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, -1], [0, -1], [1, -1] ],
+      "fgAnchors" : [ [2, 0] ]
+    }
+  ]
+}

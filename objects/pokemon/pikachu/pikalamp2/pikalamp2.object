@@ -1,0 +1,33 @@
+{
+  "objectName" : "pikalamp2",
+  "colonyTags" : ["light", "pokemon"],
+  "rarity" : "Common",
+  "description" : "A standing lamp wrapped and lined with the fur of a Pikachu, for a more soothing apperance.",
+  "shortdescription" : "Standing Pikachu Lamp",
+  "race" : "generic",
+
+  "apexDescription" : "",
+  "avianDescription" : "",
+  "floranDescription" : "",
+  "glitchDescription" : "",
+  "humanDescription" : "",
+  "hylotlDescription" : "",
+  "novakidDescription" : "",
+
+  "category" : "light",
+  "price" : 30,
+  "lightColor" : [255, 218, 10],
+
+  "inventoryIcon" : "pikalamp2icon.png",
+  "orientations" : [
+    {
+      "image" : "pikalamp2.png:<color>.<frame>",
+      "imagePosition" : [-2, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

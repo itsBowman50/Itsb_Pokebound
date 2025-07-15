@@ -1,0 +1,41 @@
+{
+  "name" : "itsb_electriclance",
+  "label" : "ELECTRIC LANCE",
+  "image" : "/interface/elements/itb_eletric.png",
+
+  "config" : {
+    "hostileActions" : [
+          {
+            "name" : "action-fire",
+            "parameters" : {
+              "scale" : 0.4,
+              "requireLineOfSight" : true,
+              "maximumRange" : 20,
+              "minimumRange" : 0,
+              "windupTime" : 0.5,
+
+              "projectileType" : "itsb_electriclance",
+              "power" : 10,
+              "fireOffset" : [0.775, 0.625],
+              "aimAtTarget" : true,
+              "fireState" : "fire",
+              "fireDelay" : 0.2,
+              "fireSound" : "fire",
+
+              "fireArc": true,
+              "projectileSpeed": 50,
+              "gravityMultiplier": 0.6,
+
+              "winddownState" : "",
+              "winddownTime" : 2
+            }
+          }
+        ]
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/charge_up15.ogg" ]
+    }
+  }
+}

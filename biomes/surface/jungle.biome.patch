@@ -1,0 +1,63 @@
+[
+  /// Walkers
+  {
+    "op": "add",
+    "path": "/spawnProfile/groups/-",
+    "value": {
+      "select": 2,
+      "pool": [
+          [ 0.5, "itsb_pikatop" ],
+          [ 0.5, "itsb_diglett" ]
+      ]
+    }
+  },
+
+ {
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode": "floor",
+      "priority": 1,
+      "variants": 1,
+      "distribution": "/biomes/distributions.config:surfaceCrops",
+      "type": "object",
+      "objectSets": [
+        {
+          "pool": [
+            [
+              1,
+              "wildcheriseed"
+            ]
+          ],
+          "parameters": {
+            "startingStage": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode": "floor",
+      "priority": 1,
+      "variants": 1,
+      "distribution": "/biomes/distributions.config:surfaceCrops",
+      "type": "object",
+      "objectSets": [
+        {
+          "pool": [
+            [
+              1,
+              "wildgreenapricornseed"
+            ]
+          ],
+          "parameters": {
+            "startingStage": 3
+          }
+        }
+      ]
+    }
+  }
+]

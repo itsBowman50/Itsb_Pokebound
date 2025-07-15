@@ -1,0 +1,11 @@
+{
+  "itemName" : "yellowapricorn",
+  "price" : 75,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "yellowapricorn.png",
+  "description" : "These are yellow apricorns. They are use to make different types of Pokeballs.",
+  "shortdescription" : "Yellow Apricorn",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [ "itsb_pookieball" ]
+}

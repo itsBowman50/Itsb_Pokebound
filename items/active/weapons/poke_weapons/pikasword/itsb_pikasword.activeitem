@@ -1,0 +1,36 @@
+{
+  "itemName" : "itsb_pikasword",
+  "price" : 200,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "An electric sword based on Pikachu's Thunder Shock attack. Slice AND Shock, two-in-one!",
+  "shortdescription" : "Lightning Sword",
+  "tooltipKind" : "electricelementweapon",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "itsb_pikasword.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/itsb_combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "itsb_pikasword.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "itsb_electric",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 11.5
+  },
+
+  "altAbilityType" : "itsb_giantsword",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

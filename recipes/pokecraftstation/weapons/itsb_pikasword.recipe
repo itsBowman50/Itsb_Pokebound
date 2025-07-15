@@ -1,0 +1,20 @@
+{
+  "input": [
+    {
+      "item": "electricpokenite",
+      "count": 6
+    },
+    {
+      "item": "pikachuleather",
+      "count": 4
+    }
+  ],
+  "output": {
+    "item": "itsb_pikasword",
+    "count": 1
+  },
+  "groups": [
+    "pokecraftstation",
+    "weapons"
+  ]
+}

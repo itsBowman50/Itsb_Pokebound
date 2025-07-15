@@ -1,0 +1,75 @@
+{
+  "itemName" : "npcpetitsb_oldball",
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "category" : "throwableItem",
+  "description" : "Throw it down to release the creature captured inside!",
+  "shortdescription" : "Filled Oldball",
+  "tooltipKind" : "filleditsb_oldball",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged"],
+
+  "inventoryIcon" : "filleditsb_oldballicon.png",
+  "animation" : "filleditsb_oldball.animation",
+  "animationParts" : {
+    "filleditsb_oldball" : "filleditsb_oldball.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["npcpetitsb_oldball.lua"],
+
+  "icons" : {
+    "healthy" : "/items/active/unsorted/filleditsb_oldball/filleditsb_oldballicon.png",
+    "dead" : "/items/active/unsorted/filleditsb_oldball/filleditsb_oldballicondead.png"
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "duration" : 0.1,
+      "transitionFunction" : "fire",
+      "armRotation" : 70,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "throw" : {
+      "armRotation" : 0,
+      "animationState" : {
+        "weapon" : "hidden"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  },
+
+  "projectileType" : "filleditsb_oldball",
+  "projectileParameters" : {
+    "speed" : 40,
+    "level" : 0
+  },
+
+  "pets" : [
+    "itsb_caterpie",
+    "itsb_eevee",
+    "itsb_jolteon",
+    "itsb_flareon",
+    "itsb_pikachu",
+    "itsb_charmander",
+    "itsb_bulbasaur",
+    "itsb_ivysaur",
+    "itsb_venusaur",
+    "itsb_oddish",
+    "itsb_mew",
+    "itsb_spearow",
+    "itsb_pikatop"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "projectileName" : "filleditsb_spoopybatball",
+  "image" : "filleditsb_spoopybatball.png",
+  "physics" : "grenade",
+  "animationCycle" : 1,
+  "animationLoops" : true,
+  "frameNumber" : 4,
+  "pointLight" : false,
+  "speed" : 40,
+  "power" : 0.1,
+  "damageKind" : "default",
+  "emitters" : [ "capturepodred" ],
+  "bounces" : -1,
+  "piercing" : true,
+  "pureArcDuration" : 1,
+  "returnCollisionDuration" : 2,
+  "orientationLocked" : true,
+
+  "scripts" : [ "filleditsb_spoopybatballprojectile.lua" ],
+
+  "returns" : false,
+  "returnCollisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+  "collisionPoly" : [ [ -1, -1 ], [ 1, -1 ], [ 1, 1 ], [ -1, 1 ] ],
+
+  "controlForce" : 80,
+  "pickupDistance" : 1.0,
+  "snapDistance" : 4.0,
+
+  "podUuid" : null
+}

@@ -1,0 +1,20 @@
+{
+  "kind" : "itsb_bubbletrail1",
+  "definition" : {
+    "type" : "animated",
+    "animation" : "/animations/statuseffects/itsb_bubbletrail/itsb_bubbletrail.animation",
+    "position" : [0, 0],
+    "finalVelocity" : [0, 0],
+    "approach" : [50, 50],
+    "destructionAction" : "shrink",
+    "destructionTime" : 0.425,
+    "size" : 0.7,
+    "layer" : "back",
+    "timeToLive" : 0.425,
+    "fade" : 0.5,
+    "light" : [0, 60, 80],
+    "variance" : {
+      "finalVelocity" : [1.5, 1.5]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name" : "itsb_shoddishleaves",
+  "category" : "itsb_shoddish",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "itsb_shoddishleaves.png"
+  },
+
+  "parameters" :
+  {
+  }
+
+}

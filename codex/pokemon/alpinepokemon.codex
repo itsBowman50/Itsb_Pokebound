@@ -1,0 +1,17 @@
+{
+  "id" : "alpinepokemon",
+  "title" : "Alpine Pokemon",
+  "description" : "Pokemon found in the Alpine biome",
+  "icon" : "alpinepokemoncover.png",
+  "contentPages" : [
+    "#1 : Charmander
+
+Height: 2'00 (0.6 m)  Weight: 18.7 lbs. (8.5 kg)
+National Dex: #004  Type: Fire"
+
+  ],
+    "itemConfig" : {
+    "rarity" : "rare",
+    "price" : 25
+  }
+}

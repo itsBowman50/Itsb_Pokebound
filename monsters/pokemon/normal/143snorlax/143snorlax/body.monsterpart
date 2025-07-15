@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_shsnorlax",
+  "category" : "itsb_shsnorlax",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_shsnorlax.png"
+  }
+}

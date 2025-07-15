@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/randwapricornsCrops",
+    "value": {
+      "type": "periodic",
+      "octaves": 2,
+      "alpha": 2,
+      "beta": 2,
+      "modulus": 10,
+      "modulusVariance": 6,
+      "densityPeriod": 12,
+      "densityOffset": -0.6,
+      "typePeriod": 8
+    }
+  }
+]

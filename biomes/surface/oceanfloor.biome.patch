@@ -1,0 +1,14 @@
+[
+  /// Critters
+  {
+    "op": "add",
+    "path": "/spawnProfile/groups/-",
+    "value": {
+      "select": 2,
+      "pool": [
+        [0.5,"itsb_magikarp"],
+        [ 0.5, "itsb_goldeen" ]
+      ]
+    }
+  }
+]

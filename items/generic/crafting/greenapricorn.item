@@ -1,0 +1,11 @@
+{
+  "itemName" : "greenapricorn",
+  "price" : 75,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "greenapricorn.png",
+  "description" : "These are green apricorns. They are use to make different types of Pokeballs.",
+  "shortdescription" : "Green Apricorn",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [ "itsb_spoopybatball" ]
+}

@@ -1,0 +1,33 @@
+{
+  "objectName" : "pikastatue",
+  "colonyTags" : ["pokemon"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 110,
+  "description" : "A wodden statue depicting the world's most famous electric mouse Pokemon. Pika Pika? Pika!",
+  "shortdescription" : "Wooden Pikachu Statue",
+  "race" : "generic",
+
+  "apexDescription" : "",
+  "avianDescription" : "",
+  "floranDescription" : "",
+  "glitchDescription" : "",
+  "humanDescription" : "",
+  "hylotlDescription" : "",
+  "novakidDescription" : "",
+
+  "inventoryIcon" : "pikastatueicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pikastatue.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

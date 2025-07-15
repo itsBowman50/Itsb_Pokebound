@@ -1,0 +1,15 @@
+{
+  "itemName" : "itsb_trlhead",
+  "price" : 151,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "headwear",
+  "description" : "A coin, but you put it on your head.",
+  "shortdescription" : "Coin hat",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png"
+}

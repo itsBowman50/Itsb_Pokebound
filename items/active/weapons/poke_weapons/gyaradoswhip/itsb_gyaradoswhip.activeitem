@@ -1,0 +1,68 @@
+{
+  "itemName" : "itsb_gyaradoswhip",
+  "price" : 1000,
+  "level" : 5,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A whip made from the tail of a Gyarados",
+  "shortdescription" : "Gyarados Tailwhip",
+  "tooltipKind" : "waterelementweapon",
+  "category" : "whip",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","upgradeableWeapon"],
+
+  "inventoryIcon" : "itsb_gyaradoswhip.png:idle",
+  "animation" : "itsb_gyaradoswhip.animation",
+  "animationParts" : {
+    "weapon" : "itsb_gyaradoswhip.png",
+    "weaponFullbright" : ""
+  },
+  "animationCustom" : {
+    "particleEmitters" : { "crack" : {
+      "burstCount" : 3,
+      "particles" : [{"particle" : "poisonswoosh1"}]
+    }},
+    "sounds" : {
+      "swing" : [ "/sfx/melee/whip_swing1.ogg", "/sfx/melee/whip_swing2.ogg", "/sfx/melee/whip_swing3.ogg" ],
+      "crack" : [ "/sfx/melee/whip_impact1.ogg", "/sfx/melee/whip_impact2.ogg", "/sfx/melee/whip_impact3.ogg" ]
+    }
+  },
+
+  "chain" : {
+    "startOffset" : [0.625, 0.0625],
+    "length" : [4, 10],
+    "segmentImage" : "/items/active/weapons/poke_weapons/gyaradoswhip/itsb_gyaradoswhiplink.png",
+    "endSegmentImage" : "/items/active/weapons/poke_weapons/gyaradoswhip/itsb_gyaradoswhiplinkend.png",
+    "segmentSize" : 0.375
+  },
+
+  "scripts" : [ "/items/active/weapons/whip/whip.lua" ],
+
+  "elementalType" : "itsb_water",
+
+  "primaryAbilityType" : "whipcrack",
+  "primaryAbility" : {
+    "fireTime" : 1.0,
+    "chainDps" : 1.5,
+    "crackDps" : 4.5,
+
+    "damageConfig" : {
+      "damageSourceKind" : "itsb_water"
+    },
+
+    "projectileType" : "whipcrackitsb_poison"
+  },
+
+  "builder" : "/items/buildscripts/buildwhip.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "itsb_gyaradoswhip_l6.png:idle",
+    "animationParts" : {
+      "weapon" : "itsb_gyaradoswhip_l6.png"
+    },
+  "chain" : {
+    "endSegmentImage" : "/items/active/weapons/poke_weapons/gyaradoswhip/itsb_gyaradoswhiplinkend_l6.png"
+  },
+    "shortdescription" : "Gyarados Tailwhip ^blue;^reset;"
+  }
+}

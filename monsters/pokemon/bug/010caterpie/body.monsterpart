@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_caterpie",
+  "category" : "itsb_caterpie",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_caterpie.png"
+  }
+}

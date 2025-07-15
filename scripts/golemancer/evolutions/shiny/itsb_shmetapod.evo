@@ -1,0 +1,12 @@
+{
+	"name" : "itsb_shmetapod",
+	"requiredResources" : {
+		"1" : {
+			"name" : "itsb_xp",
+			"type" : "droppedItem", "id" : "itsb_xp", "amount" : 700
+		}
+	},
+	"monsterSpawn" : {
+		"type" : "itsb_shmetapod"
+	}
+}

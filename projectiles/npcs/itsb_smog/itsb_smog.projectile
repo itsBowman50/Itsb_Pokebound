@@ -1,0 +1,14 @@
+{
+  "projectileName" : "itsb_smog",
+  "image" : "itsb_smog.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 6,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 2,
+  "power" : 15,
+  "speed" : 10,
+
+  "damageKind" : "itsb_pioson",
+  "statusEffects" : [ "itsb_weakpoison"
+  ]
+}

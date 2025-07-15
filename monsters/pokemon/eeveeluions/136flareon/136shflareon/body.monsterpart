@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_shflareon",
+  "category" : "itsb_shflareon",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_shflareon.png"
+  }
+}

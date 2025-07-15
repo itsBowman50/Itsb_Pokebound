@@ -1,0 +1,14 @@
+{
+  "name" : "itsb_oddishleaves",
+  "category" : "itsb_oddish",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "itsb_oddishleaves.png"
+  },
+
+  "parameters" :
+  {
+  }
+
+}

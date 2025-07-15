@@ -1,0 +1,14 @@
+[
+  /// Walkers
+  {
+    "op": "add",
+    "path": "/spawnProfile/groups/-",
+    "value": {
+      "select": 2,
+      "pool": [
+          [ 0.5, "itsb_charmander" ],
+          [ 0.5, "itsb_diglett" ]
+      ]
+    }
+  }
+]

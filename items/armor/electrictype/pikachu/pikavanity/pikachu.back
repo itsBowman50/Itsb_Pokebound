@@ -1,0 +1,14 @@
+{
+  "itemName" : "itsb_pikachuback",
+  "price" : 550,
+  "inventoryIcon" : "icons.png:back",
+  "rarity" : "Uncommon",
+  "category" : "backwear",
+  "description" : "A fake tail made from Pikachu, to help you blend in when your trying to capture the most popular electric mouse Pokemon.",
+  "shortdescription" : "Pikachu Tail",
+  "tooltipKind" : "back",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1
+}

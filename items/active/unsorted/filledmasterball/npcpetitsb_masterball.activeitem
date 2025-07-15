@@ -1,0 +1,64 @@
+{
+  "itemName" : "npcpetitsb_masterball",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "throwableItem",
+  "description" : "Throw it down to release the creature captured inside!",
+  "shortdescription" : "Filled Masterball",
+  "tooltipKind" : "filleditsb_masterball",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged"],
+
+  "inventoryIcon" : "filleditsb_masterballicon.png",
+  "animation" : "filleditsb_masterball.animation",
+  "animationParts" : {
+    "filleditsb_masterball" : "filleditsb_masterball.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["npcpetitsb_masterball.lua"],
+
+  "icons" : {
+    "healthy" : "/items/active/unsorted/filleditsb_masterball/filleditsb_masterballicon.png",
+    "dead" : "/items/active/unsorted/filleditsb_masterball/filleditsb_masterballicondead.png"
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "duration" : 0.1,
+      "transitionFunction" : "fire",
+      "armRotation" : 70,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "throw" : {
+      "armRotation" : 0,
+      "animationState" : {
+        "weapon" : "hidden"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  },
+
+  "projectileType" : "filleditsb_masterball",
+  "projectileParameters" : {
+    "speed" : 40,
+    "level" : 0
+  },
+
+  "pets" : [
+    "itsb_mew",
+    "itsb_pikatop"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+	"itsb_pikachuTreasure" : [
+    [1, {
+        "pool" : [
+            {"weight" : 0.800, "item" : "pikachuleather"},
+		        {"weight" : 0.199, "pool" : "itsb_xp"},
+		        {"weight" : 0.001, "item" : "pikachuPF"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ],
+	"itsb_pikachuHunting" : [
+    [1, {
+        "pool" : [
+            {"weight" : 0.800, "item" : "pikachuleather"},
+		        {"weight" : 0.200, "pool" : "itsb_xp"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ]
+}

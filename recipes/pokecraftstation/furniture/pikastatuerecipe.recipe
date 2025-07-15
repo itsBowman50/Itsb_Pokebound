@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 100 }
+  ],
+  "output" : {
+    "item" : "pikastatue",
+    "count" : 1
+  },
+  "groups" : [ "pokecraftstation", "other" ]
+}

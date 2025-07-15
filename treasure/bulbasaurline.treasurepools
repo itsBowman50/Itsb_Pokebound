@@ -1,0 +1,93 @@
+{
+	"itsb_bulbasaurTreasure" : [
+    [1, {
+        "pool" : [
+            {"weight" : 0.400, "item" : "bulbasaurleather"},
+		        {"weight" : 0.400, "item" : "bulbavine"},
+				    {"weight" : 0.199, "pool" : "itsb_xp"},
+		        {"weight" : 0.001, "item" : "bulbasaurPF"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ],
+	"itsb_bulbasaurHunting" : [
+    [1, {
+        "pool" : [
+            {"weight" : 0.400, "item" : "bulbasaurleather"},
+		        {"weight" : 0.400, "item" : "bulbavine"},
+				    {"weight" : 0.200, "pool" : "itsb_xp"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ],
+	"itsb_bulbasaurHarvest" : [
+    [1, {
+        "pool" : [
+            {"weight" : 0.499, "item" : "bulbasaurleather"},
+		        {"weight" : 0.500, "item" : "bulbavine"},
+            {"weight" : 0.001, "item" : "itsb_bulbasauregg"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ],
+
+	"itsb_ivysaurTreasure" : [
+    [1, {
+        "pool" : [
+            {"weight" : 0.800, "item" : "ivysaurleather"},
+		        {"weight" : 0.199, "pool" : "itsb_xp"},
+		        {"weight" : 0.001, "item" : "ivysaurPF"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ],
+	"itsb_ivysaurHunting" : [
+    [1, {
+        "pool" : [
+            {"weight" : 0.800, "item" : "ivysaurleather"},
+		        {"weight" : 0.200, "pool" : "itsb_xp"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ],
+	"itsb_venusaurTreasure" : [
+    [1, {
+        "pool" : [
+            {"weight" : 0.800, "item" : "venusaurleather"},
+		        {"weight" : 0.199, "pool" : "itsb_xp"},
+		        {"weight" : 0.001, "item" : "venusaurPF"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ],
+	"itsb_venusaurHunting" : [
+    [1, {
+        "pool" : [
+            {"weight" : 0.800, "item" : "venusaurleather"},
+		        {"weight" : 0.200, "pool" : "itsb_xp"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ]
+}

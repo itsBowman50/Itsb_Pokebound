@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_shbutterfree",
+  "category" : "itsb_shbutterfree",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_shbutterfree.png"
+  }
+}

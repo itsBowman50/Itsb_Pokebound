@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_pidgeottohead",
+  "category" : "itsb_pidgeotto",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "itsb_pidgeottohead.png"
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "type" : "itsb_venusaur",
+  "shortdescription" : "Venusaur",
+  "description" : "Venusaur can fire beams of pure energy stored from sunlight via the flower on its back.",
+
+  "categories" : [ "itsb_venusaur" ],
+  "parts" : [ "body" ],
+
+  "animation" : "itsb_venusaur.animation",
+
+  "dropPools" : [ { "default" : "itsb_venusaurTreasure", "bow" : "itsb_venusaurHunting" } ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/monster.lua"
+    ],
+
+    "behavior" : "monster",
+
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+
+      "targetQueryRange" : 20,
+      "targetOnDamage" : true,
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 50,
+      "targetOutOfSightTime" : 2.5,
+
+      "foundTargetActions" : [ { "name" : "action-aggrohop" } ],
+
+      "fleeActions" : [],
+
+      "periodicActions" : [],
+
+      "approachActions" : [
+        {
+          "name" : "approach-walk",
+          "parameters" : {
+            "canJump" : true,
+            "maxJumps" : 6,
+            "jumpXVelocity" : 12,
+            "jumpYVelocity" : 30,
+            "jumpXControlForce" : 50,
+            "minXRange" : 10
+          }
+        }
+      ],
+
+      "followActions" : [
+        {
+          "name" : "approach-teleport",
+          "parameters" : {
+          }
+        },
+        {
+          "name" : "approach-walk",
+          "parameters" : {
+            "canJump" : true,
+            "maxJumps" : 3,
+            "jumpXVelocity" : 12,
+            "jumpYVelocity" : 30,
+            "jumpXControlForce" : 50
+          }
+        }
+      ],
+
+      "wanderActions" : [
+        {
+          "name" : "wander-walk",
+          "cooldown" : 2.0,
+          "parameters" : {
+            "wanderTime" : [5, 6]
+          }
+        }
+      ]
+    },
+    "skillCount" : 3,
+    "baseSkills" : [ "itsb_razorleaf" ],
+    "specialSkills" : [ "itsb_stunsporeseed", "itsb_growl", "itsb_poisonpowderseed", "itsb_sleeppowderseed" ],
+
+
+    "touchDamage" : {
+      "poly" : [ [2, 2], [2, -2], [-2, -2], [-2, 2] ],
+	  "damage" : 13,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "slash",
+      "knockback" : 20,
+      "statusEffects" : [ ]
+    },
+
+    "metaBoundBox" : [-4.0, -4.0, 4.0, 4.0],
+    "scale" : 0.65,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [3, 0], [4.125, -1.125], [4.125, -2.775], [3, -3.9], [-3.125, -3.9], [-4.25, -2.775], [-4.25, -1.125], [-3.125, 0] ],
+
+      "mass" : 1.0,
+      "walkSpeed" : 3,
+      "runSpeed" : 5,
+
+      "airFriction" : 0,
+
+      "airJumpProfile" : {
+        "jumpSpeed" : 45.0,
+        "jumpInitialPercentage" : 1.0,
+        "jumpHoldTime" : 0.0
+      }
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 0.3,
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+    "knockoutEffect" : "",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 80
+        },
+        "protection" : {
+          "baseValue" : 42
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        },
+        "itsb_bugResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_dragonResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_fairyResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_electricResistance" : {
+          "baseValue" : 0.5
+        },
+        "itsb_fightingResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_fireResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_flyingResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_ghostResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_grassResistance" : {
+          "baseValue" : 0.5
+        },
+        "itsb_iceResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_groundResistance" : {
+          "baseValue" : 0.5
+        },
+        "itsb_normalResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_poisonResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_psychicResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_rockResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_steelResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_waterResistance" : {
+          "baseValue" : 0.5
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -6],
+    "capturable" : true,
+    "captureHealthFraction" : 0.2,
+    "nametagColor" : [140, 215, 81],
+    "captureCollectables" : { "itsbowman_pokedex" : "itsb_venusaur" }
+
+  }
+}

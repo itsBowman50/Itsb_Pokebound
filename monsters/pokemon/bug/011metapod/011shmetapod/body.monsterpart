@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_shmetapod",
+  "category" : "itsb_shmetapod",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_shmetapod.png"
+  }
+}

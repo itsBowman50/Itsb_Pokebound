@@ -1,0 +1,13 @@
+{
+  "name" : "itsb_raichuhead",
+  "category" : "itsb_raichu",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "itsb_raichuhead.png"
+  },
+
+  "parameters" :
+  {
+  }
+}

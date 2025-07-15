@@ -1,0 +1,16 @@
+[
+  {
+    "op" : "add",
+    "path" : "/itsb_pokemart",
+    "value" : {
+      "primaryDungeon" : "itsb_pokemart",
+      "threatLevel" : 2,
+      "gravity" : 80,
+      "worldSize" : [10000, 10000],
+      "dungeonBaseHeight" : 1200,
+      "ambientLightLevel" : [200, 200, 200],
+      "musicTrack" : "/music/on-the-beach-at-night.ogg",
+      "biome": "tundra"
+    }
+  }
+]

@@ -1,0 +1,12 @@
+{
+	"name" : "itsb_bulbasaur_attack",
+	"requiredResources" : {
+		"1" : {
+			"name" : "raygeberry",
+			"type" : "droppedItem", "id" : "raygeberry", "amount" : 5
+		}
+	},
+	"monsterSpawn" : {
+		"type" : "itsb_bulbasaur"
+	}
+}

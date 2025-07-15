@@ -1,0 +1,16 @@
+{
+  "monsterSpawn": {
+    "type": "itsb_jolteon",
+    "parameters": {
+      "level": 1
+    }
+  },
+  "requiredResources": [
+    {
+      "type": "droppedItem",
+      "id": "itsb_thunderstone",
+      "name": "Thunder Stone",
+      "amount": 1
+    }
+  ]
+}

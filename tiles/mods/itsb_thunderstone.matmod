@@ -1,0 +1,20 @@
+{
+  "modId" : 4462,
+  "modName" : "itsb_thunderstone",
+  "itemDrop" : "itsb_thunderstone",
+  "description" : "Thunder Stone",
+  "breaksWithTile" : true,
+  "health" : 3,
+  "harvestLevel" : 2,
+
+  "miningSounds" : [ "/sfx/tools/pickaxe_ore.ogg", "/sfx/tools/pickaxe_ore2.ogg" ],
+  "miningParticle" : "orespark",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "itsb_thunderstone.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "bulbasaurleather", "count" : 5 }
+  ],
+  "output" : { "item" : "itsb_bulbasaurchest", "count" : 1 },
+  "groups" : [ "pokecraftstation", "weapons" ]
+}

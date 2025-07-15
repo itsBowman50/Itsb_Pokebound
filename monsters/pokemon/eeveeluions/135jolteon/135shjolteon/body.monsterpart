@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_shjolteon",
+  "category" : "itsb_shjolteon",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_shjolteon.png"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "whiteapricorn",
+  "price" : 75,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "whiteapricorn.png",
+  "description" : "These are white apricorns. They are use to make different types of Pokeballs.",
+  "shortdescription" : "White Apricorn",
+  "itemTags" : [ "reagent" ]
+}

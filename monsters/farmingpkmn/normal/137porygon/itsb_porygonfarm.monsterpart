@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_porygonfarm",
+  "category" : "itsb_porygonfarm",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_porygonfarm.png"
+  }
+}

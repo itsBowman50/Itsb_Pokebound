@@ -1,0 +1,33 @@
+{
+  "objectName" : "pikalamp3",
+  "colonyTags" : ["light", "pokemon"],
+  "rarity" : "Common",
+  "description" : "A light made by wrapping Pikachu leather around a ceiling lamp. Very yellow, for some reason.",
+  "shortdescription" : "Pikachu Ceiling Lamp",
+  "race" : "generic",
+
+  "apexDescription" : "",
+  "avianDescription" : "",
+  "floranDescription" : "",
+  "glitchDescription" : "",
+  "humanDescription" : "",
+  "hylotlDescription" : "",
+  "novakidDescription" : "",
+
+  "category" : "light",
+  "price" : 25,
+  "lightColor" : [255, 218, 10],
+
+  "inventoryIcon" : "pikalamp3icon.png",
+  "orientations" : [
+    {
+      "image" : "pikalamp3.png:<color>.<frame>",
+      "imagePosition" : [-2, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaces" : [ [-1, 0], [0, 0], [1, 0] ],
+      "anchors" : [ "top" ]
+    }
+  ]
+}

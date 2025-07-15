@@ -1,0 +1,56 @@
+{
+	"meowthmerch" : [
+		[1, {
+			"pool" : [
+				{"weight" : 0.10, "pool" : "itsb_seed"}
+			],
+			"poolRounds" : 1,
+			"allowDuplication" : false
+		}]
+	],
+
+  "itsb_seed" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.4, "item" : [ "cheriseed", 1]},
+        {"weight" : 0.25, "item" : [ "chestoseed", 1]},
+        {"weight" : 0.2, "item" : [ "pechaseed", 1]},
+        {"weight" : 0.2, "item" : [ "redapricornseed", 1]},
+        {"weight" : 0.1, "item" : [ "whiteapricornseed", 1]},
+        {"weight" : 0.05, "item" : [ "cheriseed", 2]},
+        {"weight" : 0.05, "item" : [ "chestoseed", 2]},
+        {"weight" : 0.2, "item" : [ "pechaseed", 2]},
+        {"weight" : 0.05, "item" : [ "redapricornseed", 2]},
+        {"weight" : 0.05, "item" : [ "whiteapricornseed", 2]},
+        {"weight" : 0.05, "item" : [ "cheriseed", 3]},
+        {"weight" : 0.05, "item" : [ "chestoseed", 3]},
+        {"weight" : 0.2, "item" : [ "pechaseed", 3]},
+        {"weight" : 0.05, "item" : [ "redapricornseed", 3]},
+        {"weight" : 0.05, "item" : [ "whiteapricornseed", 3]}
+      ],
+      "poolRounds" : 4,
+      "allowDuplication" : false
+    }],
+    [2, {
+      "pool" : [
+        {"weight" : 0.4, "item" : [ "cheriseed", 1]},
+        {"weight" : 0.25, "item" : [ "chestoseed", 1]},
+        {"weight" : 0.2, "item" : [ "pechaseed", 1]},
+        {"weight" : 0.2, "item" : [ "redapricornseed", 1]},
+        {"weight" : 0.1, "item" : [ "whiteapricornseed", 1]},
+        {"weight" : 0.05, "item" : [ "cheriseed", 2]},
+        {"weight" : 0.05, "item" : [ "chestoseed", 2]},
+        {"weight" : 0.2, "item" : [ "pechaseed", 2]},
+        {"weight" : 0.05, "item" : [ "redapricornseed", 2]},
+        {"weight" : 0.05, "item" : [ "whiteapricornseed", 2]},
+        {"weight" : 0.05, "item" : [ "cheriseed", 3]},
+        {"weight" : 0.05, "item" : [ "chestoseed", 3]},
+        {"weight" : 0.2, "item" : [ "pechaseed", 3]},
+        {"weight" : 0.05, "item" : [ "redapricornseed", 3]},
+        {"weight" : 0.05, "item" : [ "whiteapricornseed", 3]}
+      ],
+      "poolRounds" : 4,
+      "allowDuplication" : false
+    }]
+  ]
+}

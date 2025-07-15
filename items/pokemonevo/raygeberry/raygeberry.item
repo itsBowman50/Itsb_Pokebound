@@ -1,0 +1,10 @@
+{
+  "itemName" : "raygeberry",
+  "price" : 75,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "raygeberry.png",
+  "description" : "These are Rayge Berries. They are use to make different breeds of Pokemon.",
+  "shortdescription" : "Rayge Berry",
+  "itemTags" : [ "reagent" ]
+}

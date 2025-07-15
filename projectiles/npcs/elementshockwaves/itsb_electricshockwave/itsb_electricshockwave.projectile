@@ -1,0 +1,22 @@
+{
+  "projectileName" : "itsb_electricshockwave",
+  "image" : "itsb_electricshockwave.png",
+  "animationCycle" : 0.25,
+  "animationLoops" : false,
+  "timeToLive" : 0.25,
+  "frameNumber" : 5,
+  "power" : 50,
+  "speed" : 0,
+  "orientationLocked" : true,
+  "piercing" : true,
+  "flippable" : true,
+  "knockback" : 20,
+  "knockbackDirectional" : true,
+  "damagePoly" : [ [-4, 11], [4, 11], [4, -11], [-4, -11] ],
+  "lightColor" : [150, 150, 255],
+  "damageKind" : "itsb_electric",
+  "statusEffects" : [
+    "electrified"
+  ],
+  "emitters" : ["barrierelectric"]
+}

@@ -1,0 +1,15 @@
+{
+  "projectileName" : "itsb_stringshot",
+  "image" : "itsb_stringshot.png",
+  "physics" : "grenade",
+  "animationCycle" : 0.75,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "power" : 5.0,
+  "speed" : 50,
+  "damageKind" : "itsb_bug",
+  "emitters" : [],
+
+  "renderLayer" : "Monster+50"
+}

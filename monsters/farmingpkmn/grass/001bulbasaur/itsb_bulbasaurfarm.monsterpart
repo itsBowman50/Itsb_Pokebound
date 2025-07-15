@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_bulbasaurfarm",
+  "category" : "itsb_bulbasaurfarm",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_bulbasaurfarm.png"
+  }
+}

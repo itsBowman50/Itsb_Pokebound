@@ -1,0 +1,75 @@
+{
+	"itsb_charmanderTreasure" : [
+    [1, {
+        "pool" : [
+            {"weight" : 0.800, "item" : "rawpoultry"},
+		        {"weight" : 0.199, "pool" : "itsb_xp"},
+		        {"weight" : 0.001, "item" : "charmanderPF"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ],
+	"itsb_charmanderHunting" : [
+    [1, {
+        "pool" : [
+            {"weight" : 0.800, "item" : "leather"},
+		        {"weight" : 0.199, "pool" : "itsb_xp"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ],
+	"itsb_charmeleonTreasure" : [
+    [1, {
+        "pool" : [
+            {"weight" : 0.800, "item" : "rawpoultry"},
+		        {"weight" : 0.199, "pool" : "itsb_xp"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ],
+	"itsb_charmeleonHunting" : [
+    [1, {
+        "pool" : [
+            {"weight" : 0.800, "item" : "leather"},
+		        {"weight" : 0.199, "pool" : "itsb_xp"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ],
+	"itsb_charizardTreasure" : [
+    [1, {
+        "pool" : [
+            {"weight" : 0.800, "item" : "rawpoultry"},
+		        {"weight" : 0.199, "pool" : "itsb_xp"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ],
+	"itsb_charizardHunting" : [
+    [1, {
+        "pool" : [
+            {"weight" : 0.800, "item" : "leather"},
+		        {"weight" : 0.199, "pool" : "itsb_xp"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ]
+}

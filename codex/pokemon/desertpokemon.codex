@@ -1,0 +1,31 @@
+{
+  "id" : "desertpokemon",
+  "title" : "Desert Pokemon",
+  "description" : "Pokemon found in the Desert biome",
+  "icon" : "desertpokemoncover.png",
+  "contentPages" : [
+    "                  #1 : Ivysaur
+
+Height: 3'03 (1.0 m)
+Weight: 28.7 lbs. (13.0 kg)
+
+National Dex: #002
+Type: Grass/Poison
+
+Evolves from Bulbasaur with 1600 XP and evolves into Venusaur with 3200 XP.",
+
+   "                  #2 : Spearow
+
+Height: 1'00 (0.3 m)
+Weight: 4.4 lbs. (2.0 kg)
+
+National Dex: #0021
+Type: Normal/Flying"
+
+
+  ],
+    "itemConfig" : {
+    "rarity" : "rare",
+    "price" : 25
+  }
+}

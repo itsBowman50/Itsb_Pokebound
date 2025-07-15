@@ -1,0 +1,34 @@
+{
+  "frameGrid" : {
+    "size" : [40, 35],
+    "dimensions" : [8, 7],
+
+    "names" : [
+      [ null, "sleep.1" ],
+      [ null, "idle.1", "idle.2", "idle.3", "idle.4", "idle.5", "idle.6", "idle.7"],
+      [ null, "hurt.1" ],
+      [ null, "windup.1", "windup.2", "windup.3", "windup.4", "windup.5", "windup.6", "windup.7" ],
+      [ null, "walk.1", "walk.2", "walk.3", "walk.4", "walk.5", "walk.6"],
+      [ null, "invulnerable.1" ],
+      [ null, "firewindup.1", "firewindup.2", "firewindup.3", "fire.1"]
+    ]
+  },
+  "aliases" : {
+  	"jump.1" : "walk.5",
+  	"fall.1" : "walk.2",
+
+    "skid.1" : "walk.4",
+    "skid.2" : "walk.5",
+    "skid.3" : "walk.6",
+
+    "skidend.3" : "walk.6",
+
+    "winddown.1" : "windup.7",
+    "winddown.2" : "windup.6",
+    "winddown.3" : "windup.5",
+    "winddown.4" : "windup.4",
+    "winddown.5" : "windup.3",
+    "winddown.6" : "windup.2",
+    "winddown.7" : "windup.1"
+  }
+}

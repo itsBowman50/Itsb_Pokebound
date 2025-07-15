@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_shcaterpie",
+  "category" : "itsb_shcaterpie",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_shcaterpie.png"
+  }
+}

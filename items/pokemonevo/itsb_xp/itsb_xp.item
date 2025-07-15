@@ -1,0 +1,11 @@
+{
+  "itemName" : "itsb_xp",
+  "price" : 0,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "maxStack" : 9999,
+  "inventoryIcon" : "itsb_xp.png",
+  "description" : "XP used to level up your Pokemon",
+  "shortdescription" : "XP",
+  "itemTags" : [ "reagent" ]
+}

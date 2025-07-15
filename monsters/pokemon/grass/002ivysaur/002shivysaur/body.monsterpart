@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_shivysaur",
+  "category" : "itsb_shivysaur",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_shivysaur.png"
+  }
+}

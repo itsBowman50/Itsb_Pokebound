@@ -1,0 +1,11 @@
+{
+  "itemName" : "itsb_waterstone",
+  "price" : 50,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "itsb_waterstone.png",
+  "description" : "Used to evolve certain Pokemon.",
+  "shortdescription" : "Water Stone",
+  "itemTags" : [ "reagent" ],
+  "radioMessagesOnPickup" : [ "pickupore" ]
+}

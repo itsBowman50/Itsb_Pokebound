@@ -1,0 +1,11 @@
+{
+  "itemName" : "poisonpokenite",
+  "price" : 50,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "poisonpokenite.png",
+  "description" : "This looks like a river of toxins are running through it... Perhaps it could be used to make something.",
+  "shortdescription" : "Poison Pokenite Ore",
+  "itemTags" : [ "reagent" ],
+  "radioMessagesOnPickup" : [ "pickupore" ]
+}

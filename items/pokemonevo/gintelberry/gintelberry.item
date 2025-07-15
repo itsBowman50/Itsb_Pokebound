@@ -1,0 +1,10 @@
+{
+  "itemName" : "gintelberry",
+  "price" : 75,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "gintelberry.png",
+  "description" : "These are Gintel Berries. They are use to make different breeds of Pokemon.",
+  "shortdescription" : "Gintel Berry",
+  "itemTags" : [ "reagent" ]
+}

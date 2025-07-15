@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "chocolate", "count" : 1 },
+    { "item" : "egg", "count" : 1 },
+    { "item" : "milk", "count" : 1 },
+    { "item" : "itsb_pokeball", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "itsb_cookieball",
+    "count" : 1
+  },
+  "groups" : [ "pokecraftstation", "pokeballs" ]
+}

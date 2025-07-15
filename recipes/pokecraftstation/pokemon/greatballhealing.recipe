@@ -1,0 +1,28 @@
+{
+  "input": [
+    {
+      "item": "durasteelbar",
+      "count": 6
+    },
+    {
+      "item": "siliconboard",
+      "count": 4
+    },
+    {
+      "item": "itsb_greatball",
+      "count": 1
+    },
+    {
+      "item": "pethealingstation",
+      "count": 1
+    }
+  ],
+  "output": {
+    "item": "greatballhealing",
+    "count": 1
+  },
+  "groups": [
+    "pokecraftstation",
+    "other"
+  ]
+}

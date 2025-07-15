@@ -1,0 +1,33 @@
+{
+  "objectName" : "pikachuD",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Rare",
+  "category" : "actionFigure",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "The label reads, \"Nobody knows where it came from or who made it.\"",
+  "shortdescription" : "Pikachu Doll",
+
+
+
+  "inventoryIcon" : "pikachuD.png",
+  "orientations" : [
+    {
+      "image" : "pikachuD.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "pikachuD.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

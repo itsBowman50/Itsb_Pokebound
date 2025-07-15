@@ -1,0 +1,99 @@
+[
+  /// Walkers
+  {
+    "op": "add",
+    "path": "/spawnProfile/groups/-",
+    "value": {
+      "select": 2,
+      "pool": [
+          [ 0.2, "itsb_bulbasaur" ],
+		      [ 0.05, "itsb_venusaur" ],
+          [ 0.2, "itsb_oddish" ],
+          [ 0.2, "itsb_caterpie" ],
+          [ 0.15, "itsb_diglett" ],
+          [ 0.1, "itsb_metapod" ],
+          [ 0.1, "itsb_pikatop" ]
+      ]
+    }
+  },
+
+  /// Flyers
+  {
+    "op": "add",
+    "path": "/spawnProfile/groups/-",
+    "value": {
+      "select": 2,
+      "pool": [
+          [ 0.35, "itsb_spearow" ],
+          [ 0.1, "itsb_butterfree" ],
+          [ 0.35, "itsb_pidgey" ],
+          [ 0.195, "itsb_pidgeotto" ],
+          [ 0.005, "itsb_pidgeot" ]
+      ]
+    }
+  },
+
+  /// Critters
+  {
+    "op": "add",
+    "path": "/spawnProfile/groups/-",
+    "value": {
+      "select": 1,
+      "pool": [
+        [0.95,"itsb_magikarp"]
+      ]
+    }
+  },
+
+
+  /// Crops
+
+ {
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode": "floor",
+      "priority": 1,
+      "variants": 1,
+      "distribution": "/biomes/distributions.config:randwapricornsCrops",
+      "type": "object",
+      "objectSets": [
+        {
+          "pool": [
+            [
+              1,
+              "wildredapricornseed"
+            ]
+          ],
+          "parameters": {
+            "startingStage": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode": "floor",
+      "priority": 1,
+      "variants": 1,
+      "distribution": "/biomes/distributions.config:randwapricornsCrops",
+      "type": "object",
+      "objectSets": [
+        {
+          "pool": [
+            [
+              1,
+              "wildwhiteapricornseed"
+            ]
+          ],
+          "parameters": {
+            "startingStage": 3
+          }
+        }
+      ]
+    }
+  }
+]

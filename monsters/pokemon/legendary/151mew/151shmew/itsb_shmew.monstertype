@@ -1,0 +1,252 @@
+{
+  "type" : "itsb_shmew",
+  "shortdescription" : "^yellow;Mew^white;",
+  "description" : "A mythical, ancient Pokémon which few people, if any, have been able to get information on.",
+
+  "categories" : [ "itsb_shmew" ],
+  "parts" : [ "body" ],
+
+  "animation" : "itsb_shmew.animation",
+
+  "dropPools" : [ { "default" : "itsb_mewTreasure", "bow" : "itsb_mewHunting" } ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/monster.lua"
+    ],
+
+    "behavior" : "monster",
+
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+
+      "targetQueryRange" : 20,
+      "targetOnDamage" : true,
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 50,
+      "targetOutOfSightTime" : 2.5,
+
+      "foundTargetActions" : [ { "name" : "action-aggrohop" } ],
+
+      "fleeActions" : [],
+
+      "hostileActions" : [
+        {
+          "name" : "action-fire",
+          "parameters" : {
+            "requireLineOfSight" : true,
+            "maximumRange" : 20,
+            "minimumRange" : 0,
+            "windupTime" : 0.5,
+
+            "projectileType" : "acidgun",
+            "power" : 10,
+            "fireOffset" : [0.775, 0.625],
+            "aimAtTarget" : true,
+            "fireState" : "fire",
+            "fireDelay" : 0.2,
+            "fireSound" : "fire",
+
+            "fireArc": true,
+            "projectileSpeed": 50,
+            "gravityMultiplier": 0.6,
+
+            "winddownState" : "",
+            "winddownTime" : 2
+          }
+        }
+      ],
+
+      "periodicActions" : [],
+
+      "approachActions" : [
+        {
+          "name" : "approach-walk",
+          "parameters" : {
+            "canJump" : true,
+            "maxJumps" : 6,
+            "jumpXVelocity" : 12,
+            "jumpYVelocity" : 30,
+            "jumpXControlForce" : 50,
+            "minXRange" : 10
+          }
+        }
+      ],
+
+      "followActions" : [
+        {
+          "name" : "approach-teleport",
+          "parameters" : {
+          }
+        },
+        {
+          "name" : "approach-walk",
+          "parameters" : {
+            "canJump" : true,
+            "maxJumps" : 3,
+            "jumpXVelocity" : 12,
+            "jumpYVelocity" : 30,
+            "jumpXControlForce" : 50
+          }
+        }
+      ],
+
+      "wanderActions" : [
+        {
+          "name" : "wander-walk",
+          "cooldown" : 2.0,
+          "parameters" : {
+            "wanderTime" : [5, 6]
+          }
+        }
+      ]
+    },
+
+    "touchDamage" : {
+      "poly" : [ [0.8125, 1.25], [1.3125, 0.75],  [1.3125, -1.05], [0.8125, -1.55],  [-0.8125, -1.55], [-1.3125, -1.05],  [-1.3125, 0.75], [-0.8125, 1.25] ],
+	  "damage" : 60,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "slash",
+      "knockback" : 20,
+      "statusEffects" : [ ]
+    },
+
+    "metaBoundBox" : [-4.0, -4.0, 4.0, 4.0],
+    "scale" : 0.45,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [0.8125, 1.25], [1.3125, 1.25],  [1.3125, -1.25], [0.8125, -3.50],  [-0.8125, -3.50], [-1.3125, -1.05],  [-1.3125, 0.75], [-0.8125, 1.25] ],
+
+      "mass" : 1.0,
+      "walkSpeed" : 5,
+      "runSpeed" : 7,
+
+      "airFriction" : 0,
+
+      "airJumpProfile" : {
+        "jumpSpeed" : 45.0,
+        "jumpInitialPercentage" : 1.0,
+        "jumpHoldTime" : 0.0
+      }
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 0.3,
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+    "knockoutEffect" : "",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 100
+        },
+        "protection" : {
+          "baseValue" : 60
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        },
+        "itsb_bugResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_darkResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_dragonResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_fairyResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_electricResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_fightingResistance" : {
+          "baseValue" : 0.5
+        },
+        "itsb_fireResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_flyingResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_ghostResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_grassResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_groundResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_normalResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_poisonResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_psychicResistance" : {
+          "baseValue" : 0.5
+        },
+        "itsb_rockResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_steelResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_waterResistance" : {
+          "baseValue" : 0.0
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -6],
+    "capturable" : true,
+    "captureHealthFraction" : 0.2,
+    "nametagColor" : [250, 99, 182],
+    "captureCollectables" : { "itsbowman_shpokedex" : "itsb_shmew" }
+  }
+}

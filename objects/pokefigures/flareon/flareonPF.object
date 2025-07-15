@@ -1,0 +1,33 @@
+{
+  "objectName" : "flareonPF",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "category" : "actionFigure",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "The label reads, \"Nobody knows where it came from or who made it.\"",
+  "shortdescription" : "Flareon Pokefigure",
+
+
+
+  "inventoryIcon" : "flareonPF.png",
+  "orientations" : [
+    {
+      "image" : "flareonPF.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "flareonPF.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

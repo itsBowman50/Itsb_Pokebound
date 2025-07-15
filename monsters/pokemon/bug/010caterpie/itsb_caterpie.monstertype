@@ -1,0 +1,207 @@
+{
+  "type" : "itsb_caterpie",
+  "shortdescription" : "Caterpie",
+  "description" : "With suction cups on its feet it can climb almost anything. It also shoots silk from its mouth to trap foes.",
+
+  "categories" : [ "itsb_caterpie" ],
+  "parts" : [ "body" ],
+
+  "animation" : "itsb_caterpie.animation",
+
+  "dropPools" : [ { "default" : "itsb_caterpieTreasure", "bow" : "itsb_caterpieHunting" } ],
+
+  "baseParameters": {
+    "scripts": [
+      "/monsters/monster.lua",
+      "/scripts/golemancer/gol_monstermain.lua"
+    ],
+
+    "behavior" : "monster",
+
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+
+      "targetQueryRange" : 20,
+      "targetOnDamage" : true,
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 50,
+      "targetOutOfSightTime" : 5.0,
+
+      "foundTargetActions" : [
+        {
+          "name" : "action-aggrohop"
+        }
+      ],
+
+      "fleeActions" : [ ],
+
+      "periodicActions" : [ ],
+
+      "approachActions" : [
+        {
+          "name" : "approach-crawl"
+        }
+      ],
+
+      "followActions" : [
+        {
+          "name" : "approach-teleport",
+          "parameters" : {
+          }
+        },
+        {
+          "name" : "approach-crawl"
+        }
+      ],
+
+      "wanderActions" : [
+        {
+          "name" : "wander-crawl",
+          "cooldown" : [3,6],
+          "parameters" : {
+            "wanderTime" : [2,4],
+            "idleTime" : [3,6],
+            "stopForce" : 200
+          }
+        }
+      ]
+    },
+    "skillCount" : 3,
+    "baseSkills" : [ "itsb_stringshot" ],
+    "specialSkills" : [ "itsb_bugbite" ],
+
+    "touchDamage" : {
+      "poly" : [ [0.75, 1.25], [1.25, 0.75], [1.25, -0.75], [0.75, -1.25], [-0.75, -1.25], [-1.25, -0.75], [-1.25, 0.75], [-0.75, 1.25] ],
+	  "damage" : 8,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "slash",
+      "knockback" : 20,
+      "statusEffects" : [ ]
+    },
+
+    "metaBoundBox" : [-4.0, -4.0, 4.0, 4.0],
+    "scale" : 0.25,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-1.15, -1.95], [-1.75, -1.35], [-1.75, 1.35], [-1.15, 1.95], [1.15, 1.95], [1.75, 1.35], [1.75, -1.35], [1.15, -1.95] ],
+
+      "mass" : 1.0,
+      "walkSpeed" : 0.5,
+      "runSpeed" : 0.75
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 0.3,
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+    "knockoutEffect" : "",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 50
+        },
+        "protection" : {
+          "baseValue" : 0.0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        },
+        "itsb_bugResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_dragonResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_fairyResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_electricResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_fightingResistance" : {
+          "baseValue" : 0.5
+        },
+        "itsb_fireResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_flyingResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_ghostResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_grassResistance" : {
+          "baseValue" : 0.5
+        },
+        "itsb_groundResistance" : {
+          "baseValue" : 0.5
+        },
+        "itsb_normalResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_poisonResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_psychicResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_rockResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_steelResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_waterResistance" : {
+          "baseValue" : 0.0
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+    "capturable" : true,
+    "captureHealthFraction" : 0.4,
+    "nametagColor" : [195, 210, 31],
+    "captureCollectables" : { "itsbowman_pokedex" : "itsb_caterpie" },
+    "evolutions": [ "/scripts/golemancer/evolutions/itsb_metapod.evo" ]
+  }
+}

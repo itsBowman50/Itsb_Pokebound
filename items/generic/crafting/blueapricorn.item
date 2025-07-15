@@ -1,0 +1,11 @@
+{
+  "itemName" : "blueapricorn",
+  "price" : 75,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "blueapricorn.png",
+  "description" : "These are blue apricorns. They are use to make different types of Pokeballs.",
+  "shortdescription" : "Blue Apricorn",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [ "itsb_greatball" ]
+}

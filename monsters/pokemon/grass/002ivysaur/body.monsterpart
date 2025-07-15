@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_ivysaur",
+  "category" : "itsb_ivysaur",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_ivysaur.png"
+  }
+}

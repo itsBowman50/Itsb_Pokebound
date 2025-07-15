@@ -1,0 +1,66 @@
+{
+  "itemName" : "npcpetitsb_greatball",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "throwableItem",
+  "description" : "Throw it down to release the creature captured inside!",
+  "shortdescription" : "Filled Greatball",
+  "tooltipKind" : "filleditsb_greatball",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged"],
+
+  "inventoryIcon" : "filleditsb_greatballicon.png",
+  "animation" : "filleditsb_greatball.animation",
+  "animationParts" : {
+    "filleditsb_greatball" : "filleditsb_greatball.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["npcpetitsb_greatball.lua"],
+
+  "icons" : {
+    "healthy" : "/items/active/unsorted/filledgreatball/filleditsb_greatballicon.png",
+    "dead" : "/items/active/unsorted/filledgreatball/filleditsb_greatballicondead.png"
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "duration" : 0.1,
+      "transitionFunction" : "fire",
+      "armRotation" : 70,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "throw" : {
+      "armRotation" : 0,
+      "animationState" : {
+        "weapon" : "hidden"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  },
+
+  "projectileType" : "filleditsb_greatball",
+  "projectileParameters" : {
+    "speed" : 40,
+    "level" : 0
+  },
+
+  "pets" : [
+    "itsb_ivysaur",
+    "itsb_jolteon",
+    "itsb_flareon",
+    "itsb_pikatop"
+  ]
+}

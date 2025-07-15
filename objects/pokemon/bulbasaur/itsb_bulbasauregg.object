@@ -1,0 +1,48 @@
+{
+  "objectName" : "itsb_bulbasauregg",
+  "colonyTags" : [],
+  "printable" : false,
+  "rarity" : "Rare",
+  "category" : "farmBeastEgg",
+  "price" : 2500,
+
+  "description" : "Hatches into a Bulbasaur",
+  "shortdescription" : "Wild Bubasaur Egg",
+  "race" : "generic",
+
+  "apexDescription" : "",
+  "avianDescription" : "",
+  "floranDescription" : "",
+  "glitchDescription" : "",
+  "humanDescription" : "",
+  "hylotlDescription" : "",
+  "novakidDescription" : "",
+
+  "inventoryIcon" : "itsb_bulbasauregg.png:idle.1",
+  "orientations" : [
+    {
+      "image" : "itsb_bulbasauregg.png:idle.1",
+      "imagePosition" : [-7, -3],
+
+      "spaces" : [ [-1, 0], [-1, 1], [0, 0], [0, 1], [1, 0], [1, 1] ],
+      "anchors" : [ "bottom" ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "animation" : "/objects/pokemon/bulbasaur/itsb_bulbasauregg.animation",
+  "animationPosition" : [-7, -3],
+  "animationParts" : {
+    "egg" : "itsb_bulbasauregg.png"
+  },
+
+  "scripts" : ["/objects/farmables/eggs/farmableegg.lua"],
+  "scriptDelta" : 60,
+
+  "hatchTime" : 10,
+  "forceHatchTime" : 80,
+
+  "spawnMonster" : "itsb_bulbasaurfarm",
+  "spawnOffset" : [0.5, 0.5]
+}

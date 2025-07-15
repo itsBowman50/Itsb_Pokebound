@@ -1,0 +1,22 @@
+{
+  "itemName" : "itsb_potion",
+  "rarity" : "Common",
+  "price" : 25,
+  "category" : "medicine",
+  "inventoryIcon" : "itsb_potion.png",
+  "description" : "Restores HP that has been lost in battle.",
+  "shortdescription" : "Potion",
+  "effects" : [ [
+      {
+        "effect" : "bandageheal"
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "bandageuse" ],
+  "blockingEffects" : [
+    "salveheal",
+    "bandageheal",
+    "medkitheal",
+    "nanowrapheal"
+  ]
+}

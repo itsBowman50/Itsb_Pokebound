@@ -1,0 +1,18 @@
+{
+  "itemName" : "itsb_pikachuhead",
+  "price" : 500,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "headwear",
+  "description" : "A hat made from Pikachu leather, to help you look more like your favorite electric mouse!",
+  "shortdescription" : "Pikachu Hat",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png"
+
+
+
+}

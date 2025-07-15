@@ -1,0 +1,40 @@
+{
+  "objectName" : "itsb_pokemartsign",
+  "colonyTags" : ["pokemon", "commerce"],
+  "rarity" : "Common",
+  "description" : "A sign advertising a PokeMart",
+  "shortdescription" : "PokeMart Sign",
+  "race" : "human",
+  "category" : "decorative",
+  "price" : 55,
+
+  "apexDescription" : "A sign for a PokeMart.",
+  "avianDescription" : "It says \"PoekMart\".",
+  "floranDescription" : "Sssign for a PokeMart.",
+  "glitchDescription" : "Comforted. A sign that indicates a PokeMart.",
+  "humanDescription" : "Looks like the sign for a PokeMart.",
+  "hylotlDescription" : "This is the sign for a PokeMart.",
+  "novakidDescription" : "Must be a PokeMart.",
+
+  "inventoryIcon" : "itsb_pokemartsignicon.png",
+  "orientations" : [
+    {
+      "image" : "itsb_pokemartsign.png:<color>",
+      "imagePosition" : [-8, -8],
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, -1], [0, -1], [1, -1] ],
+      "fgAnchors" : [ [-2, 0], [2, 0] ]
+    },
+    {
+      "image" : "itsb_pokemartsignleft.png:<color>",
+      "imagePosition" : [-8, -8],
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, -1], [0, -1], [1, -1] ],
+      "fgAnchors" : [ [-2, 0] ]
+    },
+    {
+      "image" : "itsb_pokemartsignright.png:<color>",
+      "imagePosition" : [-8, -8],
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, -1], [0, -1], [1, -1] ],
+      "fgAnchors" : [ [2, 0] ]
+    }
+  ]
+}

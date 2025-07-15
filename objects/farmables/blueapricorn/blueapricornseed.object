@@ -1,0 +1,60 @@
+{
+  "objectName" : "blueapricornseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Uncommon",
+  "category" : "seed",
+  "description" : "Produces apricorns that can be used to make different types of Pokeballs. ",
+  "shortdescription" : "Blue Apricorn Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 20,
+
+  "apexDescription" : "",
+  "avianDescription" : "",
+  "floranDescription" : "",
+  "glitchDescription" : "",
+  "humanDescription" : "",
+  "hylotlDescription" : "",
+  "novakidDescription" : "",
+
+  "inventoryIcon" : "blueapricornseedicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "blueapricornseed.png:default.3.0",
+
+  "orientations" : [
+    {
+      "dualImage" : "blueapricornseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [280, 320]
+    },
+    {
+      "duration" : [280, 320]
+    },
+    {
+      "alts" : 1,
+      "duration" : [1170, 1230]
+    },
+    {
+      "alts" : 1,
+      "harvestPool" : "blueapricornHarvest",
+      "resetToStage" : 1
+    }
+  ],
+
+  "maxImmersion" : 0.125
+}

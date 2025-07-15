@@ -1,0 +1,26 @@
+{
+  "name" : "itsbowman_shpokedex",
+  "title" : "^yellow;Pokedex^white;",
+  "type" : "monster",
+
+   "collectables" : {
+
+
+    "itsb_shbulbasaur" : { "order" : 1, "monsterType" : "itsb_shbulbasaur", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/shiny/itsb_shbulbasauricon.png" },
+   	"itsb_shivysaur" : { "order" : 2, "monsterType" : "itsb_shivysaur", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/shiny/itsb_shivysauricon.png" },
+   	"itsb_shvenusaur" : { "order" : 3, "monsterType" : "itsb_shvenusaur", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/shiny/itsb_shvenusauricon.png" },
+   	"itsb_shcharmander" : { "order" : 4, "monsterType" : "itsb_shcharmander", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/shiny/itsb_shcharmandericon.png" },
+  	"itsb_shsquirtle" : { "order" : 5, "monsterType" : "itsb_shsquirtle", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/shiny/itsb_shsquirtleicon.png" },
+   	"itsb_shcaterpie" : { "order" : 6, "monsterType" : "itsb_shcaterpie", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/shiny/itsb_shcaterpieicon.png" },
+   	"itsb_shmetapod" : { "order" : 7, "monsterType" : "itsb_shmetapod", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/shiny/itsb_shmetapodicon.png" },
+   	"itsb_shbutterfree" : { "order" : 8, "monsterType" : "itsb_shbutterfree", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/shiny/itsb_shbutterfreeicon.png" },
+    "itsb_shpikachu" : { "order" : 9, "monsterType" : "itsb_shpikachu", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/shiny/itsb_shpikachuicon.png" },
+   	"itsb_shoddish" : { "order" : 10, "monsterType" : "itsb_shoddish", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/shiny/itsb_shoddishicon.png" },
+  	"itsb_shdiglett" : { "order" : 11, "monsterType" : "itsb_shdiglett", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/shiny/itsb_shdigletticon.png" },
+   	"itsb_sheevee" : { "order" : 12, "monsterType" : "itsb_sheevee", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/shiny/itsb_sheeveeicon.png" },
+   	"itsb_shjolteon" : { "order" :13, "monsterType" : "itsb_shjolteon", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/shiny/itsb_shjolteonicon.png" },
+   	"itsb_shflareon" : { "order" : 14, "monsterType" : "itsb_shflareon", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/shiny/itsb_shflareonicon.png" },
+   	"itsb_shmew" : { "order" : 15, "monsterType" : "itsb_shmew", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/shiny/itsb_shmewicon.png" }
+
+	}
+}

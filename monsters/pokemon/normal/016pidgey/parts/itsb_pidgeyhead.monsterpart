@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_pidgeyhead",
+  "category" : "itsb_pidgey",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "itsb_pidgeyhead.png"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name" : "itsb_weakpoison",
+  "blockingStat" : "itsb_poisonStatusImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "itsb_weakpoison.lua"
+  ],
+
+  "animationConfig" : "itsb_weakpoison.animation",
+
+  "label" : "Poisoned",
+  "icon" : "/interface/statuses/itsb_weakpoison.png"
+}

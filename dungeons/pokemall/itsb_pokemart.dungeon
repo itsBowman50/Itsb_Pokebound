@@ -1,0 +1,29 @@
+{
+  "metadata" : {
+    "name" : "itsb_pokemart",
+    "species" : "human",
+    "rules" : [
+    ],
+    "anchor" : [ "itsb_pokecenter", "itsb_pokemart" ],
+    "maxRadius" : 1000000,
+    "maxParts" : 3,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "itsb_pokecenter",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "itsb_pokecenter.json" ]
+    },
+    {
+      "name" : "itsb_pokemart",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "itsb_pokemart.json" ]
+    }
+  ]
+}

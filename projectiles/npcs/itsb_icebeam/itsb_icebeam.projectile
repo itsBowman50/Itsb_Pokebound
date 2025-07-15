@@ -1,0 +1,15 @@
+{
+  "projectileName" : "itsb_icebeam",
+  "image" : "itsb_icebeam.png",
+  "animationCycle" : 0.6,
+  "frameNumber" : 4,
+  "speed" : 0,
+  "orientationLocked" : false,
+  "damagePoly" : [ [0, 1], [120, 1], [120, -1], [0, -1] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "emitters" : [  "defaultblue",  "defaultblue",  "defaultblue"  ],
+  "damageKind" : "itsb_ice",
+  "lightColor" : [0, 100, 100]
+}

@@ -1,0 +1,12 @@
+{
+	"name" : "itsb_flareon",
+	"requiredResources" : {
+		"1" : {
+			"name" : "itsb_firestone",
+			"type" : "droppedItem", "id" : "itsb_firestone", "amount" : 1
+		}
+	},
+	"monsterSpawn" : {
+		"type" : "itsb_flareon"
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_pidgeottobody",
+  "category" : "itsb_pidgeotto",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_pidgeottobody.png"
+  }
+}

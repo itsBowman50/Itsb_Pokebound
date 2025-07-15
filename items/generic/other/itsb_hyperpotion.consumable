@@ -1,0 +1,22 @@
+{
+  "itemName" : "itsb_hyperpotion",
+  "rarity" : "Rare",
+  "price" : 60,
+  "category" : "medicine",
+  "inventoryIcon" : "itsb_hyperpotion.png",
+  "description" : "Restores 100 health over 10 seconds.",
+  "shortdescription" : "Hyper Potion",
+  "effects" : [ [
+      {
+        "effect" : "medkitheal"
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "bandageuse" ],
+  "blockingEffects" : [
+    "salveheal",
+    "bandageheal",
+    "medkitheal",
+    "nanowrapheal"
+  ]
+}

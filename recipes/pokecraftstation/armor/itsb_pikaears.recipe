@@ -1,0 +1,5 @@
+{
+	"input" : [ { "item" : "pikachuleather", "count" : 10 } ],
+	"output" : { "item" : "itsb_pikaears", "count" : 1 },
+  "groups" : [ "pokecraftstation", "weapons" ]
+}

@@ -1,0 +1,73 @@
+{
+  "objectName" : "oldballhealing",
+  "colonyTags" : [],
+  "rarity" : "Legendary",
+  "printable" : false,
+  "description" : "The Oldball healing station is used to heal Pokemon captured with Oldballs.",
+  "shortdescription" : "^orange;Oldball Healing Station^white;",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 750,
+  "health" : 1.5,
+
+  "objectType" : "container",
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/oldballhealing.config",
+  "subtitle" : "For sad pets",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "oldballhealing.lua"],
+
+  "apexDescription" : "Machines like these are used to heal captured Pokemon.",
+  "avianDescription" : "How useful, I can heal any Pokemon I capture with this.",
+  "floranDescription" : "Floran can keep Pokemonsss healed with this.",
+  "glitchDescription" : "Impressed. This device can heal any captured Pokemon.",
+  "humanDescription" : "I can use this to heal any Pokemon I've captured. Neat!",
+  "hylotlDescription" : "Such things are useful for ensuring excellent Pokemon health.",
+  "novakidDescription" : "I can use this here gadget to heal captured Pokemon.",
+  
+  "lightColor" : [255, 64, 25],
+  "lightPosition" : [0, 1],
+
+  "flickerPeriod" : 1.2,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1.00,
+  "flickerPeriodVariance" : 0.0,
+  "flickerIntensityVariance" : 0.0,
+
+  "inventoryIcon" : "oldballhealingicon.png",
+
+  "animation" : "/objects/crafting/oldballhealing/oldballhealing.animation",
+  "animationParts" : {
+    "oldballhealing" : "oldballhealing.png",
+    "oldballhealinglit" : "oldballhealinglit.png",
+    "oldballhealinglit2" : "oldballhealinglit2.png"
+  },
+  "animationPosition" : [-6, 0],
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "oldballhealing.png:off.<frame>", "fullbright" : true }, { "image" : "oldballhealinglit.png:off.<frame>" }, { "image" : "oldballhealinglit2.png:off.<frame>", "fullbright" : true } ],
+      "imagePosition" : [-6, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "oldballhealing.png:off.<frame>", "fullbright" : true }, { "image" : "oldballhealinglit.png:off.<frame>" }, { "image" : "oldballhealinglit2.png:off.<frame>", "fullbright" : true } ],
+      "imagePosition" : [-6, 0],
+
+      "direction" : "right",
+      
+      "frames" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

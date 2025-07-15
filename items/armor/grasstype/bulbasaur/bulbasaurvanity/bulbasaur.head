@@ -1,0 +1,18 @@
+{
+  "itemName" : "itsb_bulbasaurhead",
+  "price" : 2880,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "headwear",
+  "description" : "A hat made from bulbasaur hide, so you can look more like your favorite Pokemon!",
+  "shortdescription" : "Bulbasaur Hat",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png"
+
+
+
+}

@@ -1,0 +1,121 @@
+{
+  "itemName" : "filleditsb_snowflakeball2",
+  "price" : 200,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "throwableItem",
+  "description" : "Throw it down to release your Pokemon.",
+  "shortdescription" : "Filled Snowflakeball",
+  "tooltipKind" : "filleditsb_snowflakeball2",
+  "twoHanded" : false,
+  "itemTags" : ["weapon"],
+
+  "inventoryIcon" : "filleditsb_snowflakeball2icon.png",
+  "animation" : "filleditsb_snowflakeball2.animation",
+  "animationParts" : {
+    "filleditsb_snowflakeball2" : "filleditsb_snowflakeball2.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["filleditsb_snowflakeball2.lua"],
+
+  "icons" : {
+    "healthy" : "/items/active/unsorted/filledsnowflakeball2/filleditsb_snowflakeball2icon.png",
+    "dead" : "/items/active/unsorted/filledsnowflakeball2/filleditsb_snowflakeball2icondead.png"
+  },
+
+  "deadPodShake" : {
+    "frequency" : 1.5,
+    "phase" : 0, // degrees
+    "amplitude" : 30 // degrees
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "duration" : 0.1,
+      "transitionFunction" : "fire",
+      "armRotation" : 70,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "dead" : {
+      "duration" : 0.5,
+      "transition" : "idle",
+      "armRotation" : 50,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "throw" : {
+      "armRotation" : 0,
+      "animationState" : {
+        "weapon" : "hidden"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "catch" : {
+      "duration" : 0.2,
+      "transition" : "idle",
+      "armRotation" : 60,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "monsterSnowflake2Catch" : {
+      "duration" : 1.5,
+      "transition" : "podTeleportCatch",
+      "transitionFunction" : "showSnowflake2",
+      "armRotation" : 60,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "podTeleportCatch" : {
+      "duration" : 0.3,
+      "transition" : "idle",
+      "armRotation" : 60,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+  "projectileType" : "filleditsb_snowflakeball2",
+  "projectileParameters" : {
+    "speed" : 40,
+    "level" : 0
+  },
+
+  "podUuid" : null,
+  "pets" : [],
+  "currentCollar" : null,
+
+  // The player script stores the pet's state while the filledsnowflakeball2 is
+  // inactive. When the filledsnowflakeball2 becomes active again, it updates
+  // its own version of the state.
+  // But if the filledsnowflakeball2 has been updated via a pettether or
+  // pethealingstation then the filledsnowflakeball2 should take priority and
+  // update the player script's state instead.
+  // If anything makes changes to the parameters on a filledsnowflakeball2, e.g.
+  // to heal the pets, it should set podItemHasPriority to true.
+  "podItemHasPriority" : false
+}

@@ -1,0 +1,175 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "damage" : {
+        "priority" : 2,
+        "default" : "none",
+        "states" : {
+          "none" : {
+            "frames" : 1
+          },
+          "stunned" : {
+            "frames" : 1
+          }
+        }
+      },
+      "body" : {
+        "priority" : 1,
+        "default" : "invisible",
+
+        "states" : {
+          "invisible" : {
+          },
+          "spawn" : {
+            "frames" : 0,
+            "cycle" : 1.0,
+            "mode" : "transition",
+            "transition" : "idle"
+          },
+          "idle" : {
+            "frames" : 3,
+            "cycle" : 0.60
+          },
+          "sleep" : {
+            "frames" : 5,
+            "cycle" : 0.70
+          },
+          "graze" : {
+            "frames" : 3,
+            "cycle" : 0.65,
+            "mode" : "transition",
+            "transition" : "grazeloop"
+          },
+          "grazeloop" : {
+            "frames" : 3,
+            "cycle" : 0.65,
+            "mode" : "loop"
+          },
+          "grazewinddown" : {
+            "frames" : 3,
+            "cycle" : 0.65,
+            "mode" : "transition",
+            "transition" : "idle"
+          },
+          "walk" : {
+            "frames" : 3,
+            "cycle" : 0.6,
+            "mode" : "loop"
+          },
+          "fall" : {
+            "frames" : 1,
+            "cycle" : 0.15
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "spawn" : {
+        "properties" : {
+          "offset" : [0.25, 0.375],
+          "fullbright" : true
+        },
+        "partStates" : {
+          "body" : {
+            "spawn" : {
+              "properties" : {
+                "image" : "<partImage>:<frame>"
+              }
+            }
+          }
+        }
+      },
+      "body" : {
+        "properties" : {
+          "offset" : [0.25, 0.375]
+        },
+        "partStates" : {
+          "body" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:<harvested>idle.<frame>"
+              }
+            },
+            "sleep" : {
+              "properties" : {
+                "image" : "<partImage>:<harvested>sleep.<frame>"
+              }
+            },
+            "graze" : {
+              "properties" : {
+                "image" : "<partImage>:<harvested>graze.<frame>"
+              }
+            },
+            "grazeloop" : {
+              "properties" : {
+                "image" : "<partImage>:<harvested>grazeloop.<frame>"
+              }
+            },
+            "grazewinddown" : {
+              "properties" : {
+                "image" : "<partImage>:<harvested>grazewinddown.<frame>"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "<partImage>:<harvested>walk.<frame>"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:<harvested>fall.<frame>"
+              }
+            }
+          },
+          "damage" : {
+            "stunned" : {
+              "properties" : {
+                "image" : "<partImage>:<harvested>hurt.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "globalTagDefaults" : {
+    "harvested" : ""
+  },
+
+  "particleEmitters" : {
+    "harvestable" : {
+      "active" : false,
+      "emissionRate" : 4.0,
+      "offsetRegion" : [-2.25, -1.625, 2.25, 1.625],
+      "particles" : [
+      ]
+    },
+    "deathPoof" : {
+      "particles" : [
+        { "particle" : "monstersplosion" },
+        { "particle" : "deathfizz1left" },
+        { "particle" : "deathfizz1right" },
+        { "particle" : "deathfizz2left" },
+        { "particle" : "deathfizz2right" },
+        { "particle" : "deathfizz3left" },
+        { "particle" : "deathfizz3right" },
+        { "particle" : "deathfizz4left" },
+        { "particle" : "deathfizz4right" }       
+      ]
+    }
+  },
+
+  "effects" : {
+    "blink" : {
+      "type" : "flash",
+      "time" : 0.25,
+      "directives" : "fade=ffffff;0.5"
+    }
+  },
+
+  "sounds" : {
+    "deathPuff" : [ "/monsters/farmingpkmn/normal/137porygon/itsb_porygonfarm.ogg" ],
+    "harvest" : [ "/monsters/farmingpkmn/normal/137porygon/itsb_porygonfarm.ogg" ]
+  }
+}

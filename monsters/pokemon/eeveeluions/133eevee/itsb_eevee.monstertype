@@ -1,0 +1,56 @@
+{
+  "type": "itsb_eevee",
+  "shortdescription": "Eevee",
+  "description": "This Pokémon is known for its ability to adapt to any environment, changing the majority of its DNA to do so.",
+
+  "categories": ["itsb_eevee"],
+  "parts": ["body"],
+  "animation": "itsb_eevee.animation",
+
+  "dropPools": [
+    {
+      "default": "itsb_eeveeTreasure",
+      "bow": "itsb_eeveeHunting"
+    }
+  ],
+
+  "baseParameters": {
+    "scripts": [
+      "/monsters/monster.lua",
+      "/monsters/behavior/leveling.lua"
+    ],
+    "levelSystem": true,
+    "experience": 0,
+    "level": 5,
+    "evolution": {
+      "evolvesAtLevel": 20,
+      "nextEvolution": "itsb_vaporeon"
+    },
+    "stats": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 50,
+      "speed": 55
+    },
+    "behavior": "monster",
+    "behaviorConfig": {
+      "damageOnTouch": true,
+      "targetQueryRange": 20,
+      "targetOnDamage": true,
+      "keepTargetInSight": true,
+      "keepTargetInRange": 50,
+      "targetOutOfSightTime": 2.5,
+      "foundTargetActions": [{ "name": "action-aggrohop" }],
+      "fleeActions": [],
+      "periodicActions": [],
+      "approachActions": [
+        {
+          "name": "approach-walk",
+          "parameters": {
+            "canJump": true
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "frameGrid" : {
+    "size" : [36, 34],
+    "dimensions" : [8, 10],
+
+    "names" : [
+	  [ "harvested.idle.1", "harvested.idle.2", "harvested.idle.3", null, null, null, null, null ],
+      [ "harvested.walk.1", "harvested.walk.2", "harvested.walk.3", "harvested.walk.4", null, null, null, null ],
+      [ "harvested.hurt.1", "harvested.fall.1", null, null, null, null, null, null ],
+      [ "harvested.graze.1", "harvested.graze.2", "harvested.graze.3", null, null, null, null, null ],
+      [ "harvested.grazeloop.1", "harvested.grazeloop.2", "harvested.grazeloop.3", "harvested.sleep.1", "harvested.sleep.2", "harvested.sleep.3", "harvested.sleep.4", "harvested.sleep.5" ],
+	  [ "idle.1", "idle.2", "idle.3", null, null, null, null, null ],
+      [ "walk.1", "walk.2", "walk.3", "walk.4", null, null, null, null ],
+      [ "hurt.1", "fall.1", null, null, null, null, null, null ],
+      [ "graze.1", "graze.2", "graze.3", null, null, null, null, null ],
+      [ "grazeloop.1", "grazeloop.2", "grazeloop.3", "sleep.1", "sleep.2", "sleep.3", "sleep.4", "sleep.5" ]
+
+    ]
+  },
+  "aliases" : {
+    "grazewinddown.1" : "graze.3",
+    "grazewinddown.2" : "graze.2",
+    "grazewinddown.3" : "graze.1",
+
+    "harvested.grazewinddown.1" : "harvested.graze.3",
+    "harvested.grazewinddown.2" : "harvested.graze.2",
+    "harvested.grazewinddown.3" : "harvested.graze.1"
+  }
+}

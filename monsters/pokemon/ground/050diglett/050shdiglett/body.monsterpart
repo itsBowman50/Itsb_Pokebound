@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_shdiglett",
+  "category" : "itsb_shdiglett",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_shdiglett.png"
+  }
+}

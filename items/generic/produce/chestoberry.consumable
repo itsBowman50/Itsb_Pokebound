@@ -1,0 +1,20 @@
+{
+  "itemName" : "chestoberry",
+  "rarity" : "Common",
+  "price" : 80,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "chestoberry.png",
+  "description" : "The berry's thick skin and fruit are very tough and dry tasting. However, every bit can be eaten.",
+  "shortdescription" : "Chesto Berry",
+  "foodValue" : 2.5,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 100,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "chestoberryshake" ]
+}

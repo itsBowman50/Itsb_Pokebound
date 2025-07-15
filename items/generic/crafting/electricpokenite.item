@@ -1,0 +1,12 @@
+{
+  "itemName" : "electricpokenite",
+  "price" : 50,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "electricpokenite.png",
+  "description" : "This looks as if it's been charged with lightning. You may be able to make something with this...",
+  "shortdescription" : "Electric Pokenite Ore",
+  "itemTags" : [ "reagent" ],
+  "radioMessagesOnPickup" : [ "pickupore" ],
+  "learnBlueprintsOnPickup" : [ "itsb_pikasword" ]
+}

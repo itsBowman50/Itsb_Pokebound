@@ -1,0 +1,56 @@
+{
+  "objectName" : "pikacouch2",
+  "colonyTags" : ["pokemon"],
+  "rarity" : "Common",
+  "description" : "A couch made with Pikachu fur. Don't shock yourself with the static it generates!",
+  "shortdescription" : "Soft Pikachu Couch",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 125,
+
+  "apexDescription" : "",
+  "avianDescription" : "",
+  "floranDescription" : "",
+  "glitchDescription" : "",
+  "humanDescription" : "",
+  "hylotlDescription" : "",
+  "novakidDescription" : "",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+
+  "inventoryIcon" : "pikacouch2icon.png",
+  "orientations" : [
+    {
+      "image" : "pikacouch2.png:<color>",
+      "sitCoverImage" : "/objects/pokemon/pikachu/pikacouch2/pikacouch2cover.png",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-11, 20], // Right
+        [2, 20] // Left
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "pikacouch2.png:<color>",
+      "sitCoverImage" : "/objects/pokemon/pikachu/pikacouch2/pikacouch2cover.png",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-3, 20], // Left
+        [10, 20] // Right
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

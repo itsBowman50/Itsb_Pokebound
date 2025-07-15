@@ -1,0 +1,62 @@
+{
+
+  "itsb_xp" : [
+    [0, {
+      "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["itsb_xp", 20]},
+        {"weight" : 0.6, "item" : ["itsb_xp", 30]},
+        {"weight" : 0.2, "item" : ["itsb_xp", 45]}
+      ]
+    }],
+    [1.9, {
+      "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["itsb_xp", 7]},
+        {"weight" : 0.6, "item" : ["itsb_xp", 15]},
+        {"weight" : 0.2, "item" : ["itsb_xp", 37]}
+      ]
+    }],
+    [2.9, {
+      "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["itsb_xp", 10]},
+        {"weight" : 0.6, "item" : ["itsb_xp", 20]},
+        {"weight" : 0.2, "item" : ["itsb_xp", 50]}
+      ]
+    }],
+    [3.9, {
+      "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["itsb_xp", 12]},
+        {"weight" : 0.6, "item" : ["itsb_xp", 25]},
+        {"weight" : 0.2, "item" : ["itsb_xp", 62]}
+      ]
+    }],
+    [4.9, {
+      "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["itsb_xp", 15]},
+        {"weight" : 0.6, "item" : ["itsb_xp", 30]},
+        {"weight" : 0.2, "item" : ["itsb_xp", 75]}
+      ]
+    }],
+    [5.9, {
+      "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["itsb_xp", 17]},
+        {"weight" : 0.6, "item" : ["itsb_xp", 35]},
+        {"weight" : 0.2, "item" : ["itsb_xp", 87]}
+      ]
+    }],
+    [6.9, {
+      "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+      "pool" : [
+        {"weight" : 0.2, "item" : ["itsb_xp", 20]},
+        {"weight" : 0.6, "item" : ["itsb_xp", 40]},
+        {"weight" : 0.2, "item" : ["itsb_xp", 100]}
+      ]
+    }]
+  ]
+
+ }

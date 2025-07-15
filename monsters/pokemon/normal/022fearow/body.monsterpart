@@ -1,0 +1,9 @@
+{
+  "name" : "fearow",
+  "category" : "fearow",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "fearow.png"
+  }
+}

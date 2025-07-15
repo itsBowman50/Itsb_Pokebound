@@ -1,0 +1,74 @@
+{
+	"itsb_squirtleTreasure" : [
+    [1, {
+        "pool" : [
+            {"weight" : 1.0, "item" : "rawpoultry"},
+		            {"weight" : 1.0, "pool" : "itsb_xp"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ],
+	"itsb_squirtleHunting" : [
+    [1, {
+        "pool" : [
+            {"weight" : 1.0, "item" : "leather"},
+		            {"weight" : 1.0, "pool" : "itsb_xp"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ],
+	"itsb_wartortleTreasure" : [
+    [1, {
+        "pool" : [
+            {"weight" : 1.0, "item" : "rawpoultry"},
+		            {"weight" : 1.0, "pool" : "itsb_xp"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ],
+	"itsb_wartortleHunting" : [
+    [1, {
+        "pool" : [
+            {"weight" : 1.0, "item" : "leather"},
+		            {"weight" : 1.0, "pool" : "itsb_xp"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ],
+	"itsb_blastoiseTreasure" : [
+    [1, {
+        "pool" : [
+            {"weight" : 1.0, "item" : "rawpoultry"},
+		            {"weight" : 1.0, "pool" : "itsb_xp"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ],
+	"itsb_blastoiseHunting" : [
+    [1, {
+        "pool" : [
+            {"weight" : 1.0, "item" : "leather"},
+		            {"weight" : 1.0, "pool" : "itsb_xp"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ]
+}

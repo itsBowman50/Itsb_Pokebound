@@ -1,0 +1,73 @@
+{
+  "objectName" : "masterballhealing",
+  "colonyTags" : [],
+  "rarity" : "Legendary",
+  "printable" : false,
+  "description" : "The Masterball healing station is used to heal Pokemon captured with Masterball.",
+  "shortdescription" : "^orange;Masterball Healing Station^white;",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 750,
+  "health" : 1.5,
+
+  "objectType" : "container",
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/masterballhealing.config",
+  "subtitle" : "For fainted Pokemon in a Masterball",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "masterballhealing.lua"],
+
+  "apexDescription" : "Machines like these are used to heal captured creatures.",
+  "avianDescription" : "How useful, I can heal any creatures I capture with this.",
+  "floranDescription" : "Floran can keep creaturesss healed with this.",
+  "glitchDescription" : "Impressed. This device can heal any captured creatures.",
+  "humanDescription" : "I can use this to heal any creature I've captured. Neat!",
+  "hylotlDescription" : "Such things are useful for ensuring excellent creature health.",
+  "novakidDescription" : "I can use this here gadget to heal captured creatures.",
+
+  "lightColor" : [115, 0, 204],
+  "lightPosition" : [0, 1],
+
+  "flickerPeriod" : 1.2,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1.00,
+  "flickerPeriodVariance" : 0.0,
+  "flickerIntensityVariance" : 0.0,
+
+  "inventoryIcon" : "masterballhealingicon.png",
+
+  "animation" : "/objects/crafting/masterballhealing/masterballhealing.animation",
+  "animationParts" : {
+    "masterballhealing" : "masterballhealing.png",
+    "masterballhealinglit" : "masterballhealinglit.png",
+    "masterballhealinglit2" : "masterballhealinglit2.png"
+  },
+  "animationPosition" : [-6, 0],
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "masterballhealing.png:off.<frame>", "fullbright" : true }, { "image" : "masterballhealinglit.png:off.<frame>" }, { "image" : "masterballhealinglit2.png:off.<frame>", "fullbright" : true } ],
+      "imagePosition" : [-6, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "masterballhealing.png:off.<frame>", "fullbright" : true }, { "image" : "masterballhealinglit.png:off.<frame>" }, { "image" : "masterballhealinglit2.png:off.<frame>", "fullbright" : true } ],
+      "imagePosition" : [-6, 0],
+
+      "direction" : "right",
+
+      "frames" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

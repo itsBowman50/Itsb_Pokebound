@@ -1,0 +1,48 @@
+{
+  "objectName" : "itsb_porygonegg",
+  "colonyTags" : [],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "category" : "farmBeastEgg",
+  "price" : 2500,
+
+  "description" : "Hatches into a Porygon",
+  "shortdescription" : "Man made Porygon Egg",
+  "race" : "generic",
+
+  "apexDescription" : "",
+  "avianDescription" : "",
+  "floranDescription" : "",
+  "glitchDescription" : "",
+  "humanDescription" : "",
+  "hylotlDescription" : "",
+  "novakidDescription" : "",
+
+  "inventoryIcon" : "itsb_porygonegg.png:idle.1",
+  "orientations" : [
+    {
+      "image" : "itsb_porygonegg.png:idle.1",
+      "imagePosition" : [-7, -3],
+
+      "spaces" : [ [-1, 0], [-1, 1], [0, 0], [0, 1], [1, 0], [1, 1] ],
+      "anchors" : [ "bottom" ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "animation" : "/objects/pokemon/porygon/itsb_porygonegg.animation",
+  "animationPosition" : [-7, -3],
+  "animationParts" : {
+    "egg" : "itsb_porygonegg.png"
+  },
+
+  "scripts" : ["/objects/farmables/eggs/farmableegg.lua"],
+  "scriptDelta" : 60,
+
+  "hatchTime" : 10,
+  "forceHatchTime" : 80,
+
+  "spawnMonster" : "itsb_porygonfarm",
+  "spawnOffset" : [0.5, 0.5]
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "bulbavine",
+  "price" : 50,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "bulbavine.png",
+  "description" : "The vine of a Bulbasaur.",
+  "shortdescription" : "Bulbasaur Vine",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [ "itsb_bulbawhip" ]
+}

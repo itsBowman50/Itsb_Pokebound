@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "woodencouch2", "count" : 1 },
+    { "item" : "pikachuleather", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "pikacouch2",
+    "count" : 1
+  },
+  "groups" : [ "pokecraftstation", "other" ]
+}

@@ -1,0 +1,10 @@
+{
+  "name" : "itsb_spearowwings",
+  "category" : "itsb_spearow",
+  "type" : "wings",
+
+  "frames" : {
+    "backWings" : "itsb_spearowbw.png",
+    "frontWings" : "itsb_spearowfw.png"
+  }
+}

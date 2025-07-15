@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_magnemite",
+  "category" : "itsb_magnemite",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_magnemite.png"
+  }
+}

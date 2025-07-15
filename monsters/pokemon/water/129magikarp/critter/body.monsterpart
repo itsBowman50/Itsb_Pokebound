@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_magikarp",
+  "category" : "itsb_magikarp",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

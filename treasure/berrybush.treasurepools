@@ -1,0 +1,174 @@
+  // ==============================================================================================
+  //                                       Pokemon Berry Harvest
+  // ==============================================================================================
+{
+  "cheriHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "cheriberry"},
+        {"weight" : 0.01, "item" : "cheriseed"},
+        {"weight" : 0.1, "item" : "plantfibre"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ]
+    } ]
+  ],
+  "chestoHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "chestoberry"},
+        {"weight" : 0.01, "item" : "chestoseed"},
+        {"weight" : 0.1, "item" : "plantfibre"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ]
+    } ]
+  ],
+  "raygeHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "raygeberry"},
+        {"weight" : 0.01, "item" : "raygeberryseed"},
+        {"weight" : 0.1, "item" : "plantfibre"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ]
+    } ]
+  ],
+  "gintelHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "gintelberry"},
+        {"weight" : 0.01, "item" : "gintelberryseed"},
+        {"weight" : 0.1, "item" : "plantfibre"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ]
+    } ]
+  ],
+  "whiteapricornHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "whiteapricorn"},
+        {"weight" : 0.01, "item" : "whiteapricornseed"},
+        {"weight" : 0.1, "item" : "plantfibre"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ]
+    } ]
+  ],
+  "redapricornHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "redapricorn"},
+        {"weight" : 0.01, "item" : "redapricornseed"},
+        {"weight" : 0.1, "item" : "plantfibre"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ]
+    } ]
+  ],
+  "yellowapricornHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "yellowapricorn"},
+        {"weight" : 0.01, "item" : "yellowapricornseed"},
+        {"weight" : 0.1, "item" : "plantfibre"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ]
+    } ]
+  ],
+  "enigmaberryHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "enigmaberry"},
+        {"weight" : 0.01, "item" : "enigmaberryseed"},
+        {"weight" : 0.1, "item" : "plantfibre"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ]
+    } ]
+  ],
+  "purpleapricornHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "purpleapricorn"},
+        {"weight" : 0.01, "item" : "purpleapricornseed"},
+        {"weight" : 0.1, "item" : "plantfibre"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ]
+    } ]
+  ],
+  "blackapricornHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "blackapricorn"},
+        {"weight" : 0.01, "item" : "blackapricornseed"},
+        {"weight" : 0.1, "item" : "plantfibre"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ]
+    } ]
+  ],
+  "blueapricornHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "blueapricorn"},
+        {"weight" : 0.01, "item" : "blueapricornseed"},
+        {"weight" : 0.1, "item" : "plantfibre"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ]
+    } ]
+  ],
+  "greenapricornHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "greenapricorn"},
+        {"weight" : 0.01, "item" : "greenapricornseed"},
+        {"weight" : 0.1, "item" : "plantfibre"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ]
+    } ]
+  ],
+  "pinkapricornHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "pinkapricorn"},
+        {"weight" : 0.01, "item" : "pinkapricornseed"},
+        {"weight" : 0.1, "item" : "plantfibre"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ]
+    } ]
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "rock01", "count" : 4 },
+    { "item" : "diamond", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "itsb_oldball",
+    "count" : 1
+  },
+  "groups" : [ "pokecraftstation", "pokeballs" ]
+}

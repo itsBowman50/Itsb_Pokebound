@@ -1,0 +1,33 @@
+{
+  "itemName" : "itsb_masterball",
+  "price" : 750,
+  "rarity" : "Legendary",
+  "category" : "throwableItem",
+  "inventoryIcon" : "itsb_masterball.png",
+  "image" : "itsb_masterball.png",
+  "shortdescription" : "Masterball",
+  "description" : "A ball thrown at wild Pokemon to catch them.",
+  "radioMessagesOnPickup" : [ "pickupcapturepod" ],
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+  "collectablesOnPickup" : { "itsbowman_pokeball" : "itsb_masterball" },
+  "learnBlueprintsOnPickup" : [ "masterballhealing" ],
+
+  "projectileType" : "itsb_masterball",
+  "projectileConfig" : {
+    "speed" : 40,
+    "level" : 7,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

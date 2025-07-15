@@ -1,0 +1,15 @@
+[
+  {
+    "op": "add",
+    "path": "/spawnProfile/groups/2",
+    "value": {
+      "select": 1,
+      "pool": [
+        [
+          0.4,
+          "itsb_flareon"
+        ]
+      ]
+    }
+  }
+]

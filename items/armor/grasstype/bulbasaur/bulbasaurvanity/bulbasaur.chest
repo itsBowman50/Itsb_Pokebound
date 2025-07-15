@@ -1,0 +1,23 @@
+{
+  "itemName" : "itsb_bulbasaurchest",
+  "price" : 500,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "chestwear",
+  "description" : "A shirt made from Bulbasaur leather. Helps you look like the grass-type starter!",
+  "shortdescription" : "Bulbasaur Shirt",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "BSleeve.png",
+    "frontSleeve" : "FSleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "BSleeve.png",
+    "frontSleeve" : "FSleeve.png"
+  }
+}

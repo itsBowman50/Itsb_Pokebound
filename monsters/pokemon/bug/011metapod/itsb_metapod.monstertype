@@ -1,0 +1,223 @@
+{
+  "type" : "itsb_metapod",
+  "shortdescription" : "^yellow;Metapod^white;",
+  "description" : "This pokémon can harden its shell at will, which it does regularly to prepare to evolve.",
+
+  "categories" : [ "itsb_metapod" ],
+  "parts" : [ "body" ],
+
+  "animation" : "itsb_metapod.animation",
+
+  "dropPools" : [ { "default" : "itsb_metapodTreasure", "bow" : "itsb_metapodHunting" } ],
+
+  "baseParameters": {
+    "scripts": [
+      "/monsters/monster.lua"
+    ],
+
+    "behavior" : "monster",
+
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+
+      "targetQueryRange" : 20,
+      "targetOnDamage" : true,
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 50,
+      "targetOutOfSightTime" : 2.5,
+
+      "foundTargetActions" : [ { "name" : "action-aggrohop" } ],
+
+      "fleeActions" : [],
+
+      "hostileActions" : [],
+
+      "periodicActions" : [],
+
+      "approachActions" : [
+        {
+          "name" : "approach-walk",
+          "parameters" : {
+            "canJump" : true,
+            "maxJumps" : 6,
+            "jumpXVelocity" : 12,
+            "jumpYVelocity" : 30,
+            "jumpXControlForce" : 50,
+            "minXRange" : 10
+          }
+        }
+      ],
+
+      "followActions" : [
+        {
+          "name" : "approach-teleport",
+          "parameters" : {
+          }
+        },
+        {
+          "name" : "approach-walk",
+          "parameters" : {
+            "canJump" : true,
+            "maxJumps" : 3,
+            "jumpXVelocity" : 12,
+            "jumpYVelocity" : 30,
+            "jumpXControlForce" : 50
+          }
+        }
+      ],
+
+      "wanderActions" : [
+        {
+          "name" : "wander-walk",
+          "cooldown" : 2.0,
+          "parameters" : {
+            "wanderTime" : [5, 6]
+          }
+        }
+      ]
+    },
+
+    "touchDamage" : {
+      "poly" : [ [0.75, 1.25], [1.25, 0.75], [1.25, -0.75], [0.75, -1.25], [-0.75, -1.25], [-1.25, -0.75], [-1.25, 0.75], [-0.75, 1.25] ],
+	  "damage" : 7,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "slash",
+      "knockback" : 20,
+      "statusEffects" : [ ]
+    },
+
+    "metaBoundBox" : [-4.0, -4.0, 4.0, 4.0],
+    "scale" : 0.35,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [0.75, 1.25], [1.25, 0.75], [1.25, -0.75], [0.75, -2.00], [-0.75, -2.00], [-1.25, -0.75], [-1.25, 0.75], [-0.75, 1.25] ],
+
+      "mass" : 1.0,
+      "walkSpeed" : 0,
+      "runSpeed" : 0,
+
+      "airFriction" : 0,
+
+      "airJumpProfile" : {
+        "jumpSpeed" : 45.0,
+        "jumpInitialPercentage" : 1.0,
+        "jumpHoldTime" : 0.0
+      }
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 0.3,
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+    "knockoutEffect" : "",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 55
+        },
+        "protection" : {
+          "baseValue" : 10
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        },
+        "itsb_bugResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_dragonResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_fairyResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_electricResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_fightingResistance" : {
+          "baseValue" : 0.5
+        },
+        "itsb_fireResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_flyingResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_ghostResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_grassResistance" : {
+          "baseValue" : 0.5
+        },
+        "itsb_groundResistance" : {
+          "baseValue" : 0.5
+        },
+        "itsb_normalResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_poisonResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_psychicResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_rockResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_steelResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_waterResistance" : {
+          "baseValue" : 0.0
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -2],
+    "capturable" : true,
+    "captureHealthFraction" : 0.4,
+    "nametagColor" : [187, 186, 175],
+    "captureCollectables" : { "itsbowman_shpokedex" : "itsb_metapod" },
+    "evolutions": [ "/scripts/golemancer/evolutions/shiny/itsb_butterfree.evo" ]
+
+  }
+}

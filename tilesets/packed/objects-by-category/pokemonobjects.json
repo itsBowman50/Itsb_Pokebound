@@ -1,0 +1,564 @@
+{
+  "margin" : 0,
+  "name" : "objects-by-pokemod",
+  "properties" : {
+  },
+  "spacing" : 0,
+  "tilecount" : 226,
+  "tileheight" : 64,
+  "tileproperties" : {
+    "0" : {
+      "//description" : "Produces apricorns that can be used to make different types of Pokeballs.",
+      "//name" : "wildblackapricornseed",
+      "//shortdescription" : "Black Apricorn Seed",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "wildblackapricornseed"
+    },
+    "1" : {
+      "//description" : "Produces apricorns that can be used to make different types of Pokeballs.",
+      "//name" : "wildblueapricornseed",
+      "//shortdescription" : "Blue Apricorn Seed",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "wildblueapricornseed"
+    },
+    "2" : {
+      "//description" : "The label reads, \"Nobody knows where it came from or who made it.\"",
+      "//name" : "bulbasaurPF",
+      "//shortdescription" : "Bulbasaur Pokefigure",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "bulbasaurPF"
+    },
+    "3" : {
+      "//description" : "The label reads, \"Nobody knows where it came from or who made it.\"",
+      "//name" : "caterpiePF",
+      "//shortdescription" : "Caterpie Pokefigure",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "caterpiePF"
+    },
+    "4" : {
+      "//description" : "The label reads, \"Nobody knows where it came from or who made it.\"",
+      "//name" : "charmanderPF",
+      "//shortdescription" : "Charmander Pokefigure",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "charmanderPF"
+    },
+    "5" : {
+      "//description" : "Blooms with delicate pretty flowers. The bright red berry is very spicy.",
+      "//name" : "wilditsb_cheriseed",
+      "//shortdescription" : "Cheri Berry Seed",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "wilditsb_cheriseed"
+    },
+    "6" : {
+      "//description" : "The berry's thick skin and fruit are very tough and dry tasting.",
+      "//name" : "wildchestoseed",
+      "//shortdescription" : "Chesto Berry Seed",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "wildchestoseed"
+    },
+    "7" : {
+      "//description" : "The Cookieball healing station is used to heal Pokemon captured with Cookieballs.",
+      "//name" : "cookieballhealing",
+      "//shortdescription" : "Cookieball Healing Station",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "cookieballhealing"
+    },
+    "8" : {
+      "//description" : "The label reads, \"Nobody knows where it came from or who made it.\"",
+      "//name" : "eeveePF",
+      "//shortdescription" : "Eevee Pokefigure",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "eeveePF"
+    },
+    "9" : {
+      "//description" : "A completely enigmatic berry. Appears to have the power of the stars.",
+      "//name" : "enigmaberryseed",
+      "//shortdescription" : "Enigma Berry Seed",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "enigmaberryseed"
+    },
+    "10" : {
+      "//description" : "The label reads, \"Nobody knows where it came from or who made it.\"",
+      "//name" : "flareonPF",
+      "//shortdescription" : "Flareon Pokefigure",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "flareonPF"
+    },
+    "11" : {
+      "//description" : "The label reads, \"Nobody knows where it came from or who made it.\"",
+      "//name" : "goldeenPF",
+      "//shortdescription" : "Goldeen Pokefigure",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "goldeenPF"
+    },
+    "12" : {
+      "//description" : "The Greatball healing station is used to heal Pokemon captured with Greatballs.",
+      "//name" : "greatballhealing",
+      "//shortdescription" : "Greatball Healing Station",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "greatballhealing"
+    },
+    "13" : {
+      "//description" : "Produces apricorns that can be used to make different types of Pokeballs.",
+      "//name" : "wildgreenapricornseed",
+      "//shortdescription" : "Green Apricorn Seed",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "wildgreenapricornseed"
+    },
+    "14" : {
+      "//description" : "The label reads, \"Nobody knows where it came from or who made it.\"",
+      "//name" : "ivysaurPF",
+      "//shortdescription" : "Ivysaur Pokefigure",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ivysaurPF"
+    },
+    "15" : {
+      "//description" : "The label reads, \"Nobody knows where it came from or who made it.\"",
+      "//name" : "jolteonPF",
+      "//shortdescription" : "Jolteon Pokefigure",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "jolteonPF"
+    },
+    "16" : {
+      "//description" : "The label reads, \"Nobody knows where it came from or who made it.\"",
+      "//name" : "magikarpPF",
+      "//shortdescription" : "Magikarp Pokefigure",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "magikarpPF"
+    },
+    "17" : {
+      "//description" : "The Masterball healing station is used to heal Pokemon captured with Masterballs.",
+      "//name" : "masterballhealing",
+      "//shortdescription" : "Masterball Healing Station",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "masterballhealing"
+    },
+    "18" : {
+      "//description" : "The label reads, \"Nobody knows where it came from or who made it.\"",
+      "//name" : "metapodPF",
+      "//shortdescription" : "Metapod Pokefigure",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "metapodPF"
+    },
+    "19" : {
+      "//description" : "The label reads, \"Nobody knows where it came from or who made it.\"",
+      "//name" : "mewPF",
+      "//shortdescription" : "Mew Pokefigure",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "mewPF"
+    },
+    "20" : {
+      "//description" : "The label reads, \"Nobody knows where it came from or who made it.\"",
+      "//name" : "oddishPF",
+      "//shortdescription" : "Oddish Pokefigure",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "oddishPF"
+    },
+    "21" : {
+      "//description" : "The Oldball healing station is used to heal Pokemon captured with Sammys Oldballs.",
+      "//name" : "oldballhealing",
+      "//shortdescription" : "Oldball Healing Station",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "oldballhealing"
+    },
+    "22" : {
+      "//description" : "Very sweet and delicious. Also very tender - handle with care.",
+      "//name" : "wildpeahaseed",
+      "//shortdescription" : "Pecha Berry Seed",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "wildpeahaseed"
+    },
+    "23" : {
+      "//description" : "A armchair made with Pikachu fur. So soft and cuddly.",
+      "//name" : "pikaarmchair2",
+      "//shortdescription" : "Soft Pikachu Armchair",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-8",
+      "object" : "pikaarmchair2"
+    },
+    "24" : {
+      "//description" : "A bed with a fuzzy 'electric' blanket. So soft and warm, you may never want to leave.",
+      "//name" : "pikabed",
+      "//shortdescription" : "Pikachu Bed",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-8",
+      "object" : "pikabed"
+    },
+    "25" : {
+      "//description" : "The label reads, \"Nobody knows where it came from or who made it.\"",
+      "//name" : "pikachuPF",
+      "//shortdescription" : "Pikachu Pokefigure",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "pikachuPF"
+    },
+    "26" : {
+      "//description" : "A couch made with Pikachu fur. Don't shock yourself with the static it generates!",
+      "//name" : "pikacouch2",
+      "//shortdescription" : "Soft Pikachu Couch",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-8",
+      "object" : "pikacouch2"
+    },
+    "27" : {
+      "//description" : "A light source made by wrapping Pikachu leather around a normal lamp. FASHION!",
+      "//name" : "pikalamp1",
+      "//shortdescription" : "Pikachu Table Lamp",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-8",
+      "object" : "pikalamp1"
+    },
+    "28" : {
+      "//description" : "A standing lamp wrapped and lined with the fur of a Pikachu, for a more soothing apperance.",
+      "//name" : "pikalamp2",
+      "//shortdescription" : "Standing Pikachu Lamp",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-8",
+      "object" : "pikalamp2"
+    },
+    "29" : {
+      "//description" : "A light made by wrapping Pikachu leather around a ceiling lamp. Very yellow, for some reason.",
+      "//name" : "pikalamp3",
+      "//shortdescription" : "Pikachu Ceiling Lamp",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-8",
+      "object" : "pikalamp3"
+    },
+    "30" : {
+      "//description" : "A wodden statue depicting the world's most famous electric mouse Pokemon. Pika Pika? Pika!",
+      "//name" : "pikastatue",
+      "//shortdescription" : "Wooden Pikachu Statue",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-8",
+      "object" : "pikastatue"
+    },
+    "31" : {
+      "//description" : "Produces apricorns that can be used to make different types of Pokeballs.",
+      "//name" : "wildpinkapricornseed",
+      "//shortdescription" : "Pink Apricorn Seed",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "wildpinkapricornseed"
+    },
+    "32" : {
+      "//description" : "The Pokeball healing station is used to heal Pokemon captured with Pokeballs.",
+      "//name" : "pokehealingstation",
+      "//shortdescription" : "Pokeball Healing Station",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "pokehealingstation"
+    },
+    "33" : {
+      "//description" : "A sign advertising a place to heal your Pokemon",
+      "//name" : "itsb_pokecentersign",
+      "//shortdescription" : "PokeCenter Sign",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-8",
+      "object" : "itsb_pokecentersign"
+    },
+    "34" : {
+      "//description" : "A sign advertising a place to heal your Pokemon",
+      "//name" : "itsb_pokecentersignright",
+      "//shortdescription" : "PokeCenter Sign",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-8",
+      "object" : "itsb_pokecentersign"
+    },
+    "35" : {
+      "//description" : "Used to make Pokeballs and other Pokemon related items.",
+      "//name" : "pokecraftstation",
+      "//shortdescription" : "PokeCraft Station",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-8",
+      "object" : "pokecraftstation"
+    },
+    "36" : {
+      "//description" : "A cooler full of your favorite PokeBerry shakes.",
+      "//name" : "pokemartcooler",
+      "//shortdescription" : "PokeMart Cooler",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-8",
+      "object" : "pokemartcooler"
+    },
+    "37" : {
+      "//description" : "A shelf with miscellaneous Pokemon items on it.",
+      "//name" : "pokemartshelf",
+      "//shortdescription" : "PokeMart Shelf",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-8",
+      "object" : "pokemartshelf"
+    },
+    "38" : {
+      "//description" : "A sign advertising a PokeMart",
+      "//name" : "itsb_pokemartsign",
+      "//shortdescription" : "PokeCenter Sign",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-8",
+      "object" : "itsb_pokemartsign"
+    },
+    "39" : {
+      "//description" : "A sign advertising a PokeMart",
+      "//name" : "itsb_pokemartsignright",
+      "//shortdescription" : "PokeMart Sign",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "-8",
+      "object" : "itsb_pokemartsign"
+    },
+    "40" : {
+      "//description" : "The Pookieball healing station is used to heal Pokemon captured with Pookieballs.",
+      "//name" : "pookieballhealing",
+      "//shortdescription" : "Pookieball Healing Station",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "pookieballhealing"
+    },
+    "41" : {
+      "//description" : "The Primerball healing station is used to heal Pokemon captured with Primerballs.",
+      "//name" : "primerballhealing",
+      "//shortdescription" : "Primerball Healing Station",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "primerballhealing"
+    },
+    "42" : {
+      "//description" : "Produces apricorns that can be used to make different types of Pokeballs.",
+      "//name" : "wildredapricornseed",
+      "//shortdescription" : "Red Apricorn Seed",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "wildredapricornseed"
+    },
+    "43" : {
+      "//description" : "The label reads, \"Nobody knows where it came from or who made it.\"",
+      "//name" : "spearowPF",
+      "//shortdescription" : "Spearow Pokefigure",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "spearowPF"
+    },
+    "44" : {
+      "//description" : "The Batball healing station is used to heal Pokemon captured with Spoopy Batballs.",
+      "//name" : "spoopybatballhealing",
+      "//shortdescription" : "Batball Healing Station",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "spoopybatballhealing"
+    },
+    "45" : {
+      "//description" : "The Transparent Pokeball healing station is used to heal Pokemon captured with Transparent Pokeballs.",
+      "//name" : "transballhealing",
+      "//shortdescription" : "Transparent Pokeball Healing Station",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "transballhealing"
+    },
+    "46" : {
+      "//description" : "The Ultraball healing station is used to heal Pokemon captured with Ultraballs.",
+      "//name" : "ultraballhealing",
+      "//shortdescription" : "Ultraball Healing Station",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "ultraballhealing"
+    },
+    "47" : {
+      "//description" : "The label reads, \"Nobody knows where it came from or who made it.\"",
+      "//name" : "venusaurPF",
+      "//shortdescription" : "Venusaur Pokefigure",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "venusaurPF"
+    },
+    "48" : {
+      "//description" : "Produces apricorns that can be used to make different types of Pokeballs.",
+      "//name" : "wildwhiteapricornseed",
+      "//shortdescription" : "White Apricorn Seed",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "wildwhiteapricornseed"
+    },
+    "49" : {
+      "//description" : "Produces apricorns that can be used to make different types of Pokeballs.",
+      "//name" : "wildyellowapricornseed",
+      "//shortdescription" : "Yellow Apricorn Seed",
+      "imagePositionX" : "0",
+      "imagePositionY" : "0",
+      "object" : "wildyellowapricornseed"
+    }
+  },
+  "tiles" : {
+    "0" : {
+      "image" : "../../../../../tiled/pokemod/blackapricorn.png"
+    },
+    "1" : {
+      "image" : "../../../../../tiled/pokemod/blueapricorn.png"
+    },
+    "2" : {
+      "image" : "../../../../../tiled/pokemod/bulbasaurPF.png"
+    },
+    "3" : {
+      "image" : "../../../../../tiled/pokemod/caterpiePF.png"
+    },
+    "4" : {
+      "image" : "../../../../../tiled/pokemod/charmanderPF.png"
+    },
+    "5" : {
+      "image" : "../../../../../tiled/pokemod/cheriberry.png"
+    },
+    "6" : {
+      "image" : "../../../../../tiled/pokemod/chestoberry.png"
+    },
+    "7" : {
+      "image" : "../../../../../tiled/pokemod/cookieballhealing.png"
+    },
+    "8" : {
+      "image" : "../../../../../tiled/pokemod/eeveePF.png"
+    },
+    "9" : {
+      "image" : "../../../../../tiled/pokemod/enigmaberry.png"
+    },
+    "10" : {
+      "image" : "../../../../../tiled/pokemod/flareonPF.png"
+    },
+    "11" : {
+      "image" : "../../../../../tiled/pokemod/goldeenPF.png"
+    },
+    "12" : {
+      "image" : "../../../../../tiled/pokemod/greatballhealing.png"
+    },
+    "13" : {
+      "image" : "../../../../../tiled/pokemod/greenapricorn.png"
+    },
+    "14" : {
+      "image" : "../../../../../tiled/pokemod/ivysaurPF.png"
+    },
+    "15" : {
+      "image" : "../../../../../tiled/pokemod/jolteonPF.png"
+    },
+    "16" : {
+      "image" : "../../../../../tiled/pokemod/magikarpPF.png"
+    },
+    "17" : {
+      "image" : "../../../../../tiled/pokemod/masterballhealing.png"
+    },
+    "18" : {
+      "image" : "../../../../../tiled/pokemod/metapodPF.png"
+    },
+    "19" : {
+      "image" : "../../../../../tiled/pokemod/mewPF.png"
+    },
+    "20" : {
+      "image" : "../../../../../tiled/pokemod/oddishPF.png"
+    },
+    "21" : {
+      "image" : "../../../../../tiled/pokemod/oldballhealing.png"
+    },
+    "22" : {
+      "image" : "../../../../../tiled/pokemod/peachaberry.png"
+    },
+    "23" : {
+      "image" : "../../../../../tiled/pokemod/pikaarmchair2.png"
+    },
+    "24" : {
+      "image" : "../../../../../tiled/pokemod/pikabed.png"
+    },
+    "25" : {
+      "image" : "../../../../../tiled/pokemod/pikachuPF.png"
+    },
+    "26" : {
+      "image" : "../../../../../tiled/pokemod/pikacouch2.png"
+    },
+    "27" : {
+      "image" : "../../../../../tiled/pokemod/pikalamp1.png"
+    },
+    "28" : {
+      "image" : "../../../../../tiled/pokemod/pikalamp2.png"
+    },
+    "29" : {
+      "image" : "../../../../../tiled/pokemod/pikalamp3.png"
+    },
+    "30" : {
+      "image" : "../../../../../tiled/pokemod/pikastatue.png"
+    },
+    "31" : {
+      "image" : "../../../../../tiled/pokemod/pinkapricorn.png"
+    },
+    "32" : {
+      "image" : "../../../../../tiled/pokemod/pokeballhealing.png"
+    },
+    "33" : {
+      "image" : "../../../../../tiled/pokemod/pokecentersign.png"
+    },
+    "34" : {
+      "image" : "../../../../../tiled/pokemod/pokecentersignright.png"
+    },
+    "35" : {
+      "image" : "../../../../../tiled/pokemod/pokecraftstation.png"
+    },
+    "36" : {
+      "image" : "../../../../../tiled/pokemod/pokemartcooler.png"
+    },
+    "37" : {
+      "image" : "../../../../../tiled/pokemod/pokemartshelf.png"
+    },
+    "38" : {
+      "image" : "../../../../../tiled/pokemod/pokemartsign.png"
+    },
+    "39" : {
+      "image" : "../../../../../tiled/pokemod/pokemartsignright.png"
+    },
+    "40" : {
+      "image" : "../../../../../tiled/pokemod/pookieballhealing.png"
+    },
+    "41" : {
+      "image" : "../../../../../tiled/pokemod/primerballhealing.png"
+    },
+    "42" : {
+      "image" : "../../../../../tiled/pokemod/redapricorn.png"
+    },
+    "43" : {
+      "image" : "../../../../../tiled/pokemod/spearowPF.png"
+    },
+    "44" : {
+      "image" : "../../../../../tiled/pokemod/spoopybatballhealing.png"
+    },
+    "45" : {
+      "image" : "../../../../../tiled/pokemod/transballhealing.png"
+    },
+    "46" : {
+      "image" : "../../../../../tiled/pokemod/ultraballhealing.png"
+    },
+    "47" : {
+      "image" : "../../../../../tiled/pokemod/venusaurPF.png"
+    },
+    "48" : {
+      "image" : "../../../../../tiled/pokemod/whiteapricorn.png"
+    },
+    "49" : {
+      "image" : "../../../../../tiled/pokemod/yellowapricorn.png"
+    }
+  },
+  "tilewidth" : 80
+}

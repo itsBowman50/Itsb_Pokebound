@@ -1,0 +1,22 @@
+{
+  "itemName" : "itsb_maxpotion",
+  "rarity" : "Legendary",
+  "price" : 150,
+  "category" : "medicine",
+  "inventoryIcon" : "itsb_maxpotion.png",
+  "description" : "This bandage knits wounds together fast. Restores 100 health over 1 second.",
+  "shortdescription" : "Max Potion",
+  "effects" : [ [
+      {
+        "effect" : "nanowrapheal"
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "bandageuse" ],
+  "blockingEffects" : [
+    "salveheal",
+    "bandageheal",
+    "medkitheal",
+    "nanowrapheal"
+  ]
+}

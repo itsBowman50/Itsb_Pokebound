@@ -1,0 +1,12 @@
+{
+	"name" : "itsb_shjolteon",
+	"requiredResources" : {
+		"1" : {
+			"name" : "itsb_thunderstone",
+			"type" : "droppedItem", "id" : "itsb_thunderstone", "amount" : 1
+		}
+	},
+	"monsterSpawn" : {
+		"type" : "itsb_shjolteon"
+	}
+}

@@ -1,0 +1,33 @@
+{
+  "objectName" : "pikalamp1",
+  "colonyTags" : ["light", "pokemon"],
+  "rarity" : "Common",
+  "description" : "A light source made by wrapping Pikachu leather around a normal lamp. FASHION!",
+  "shortdescription" : "Pikachu Table Lamp",
+  "race" : "generic",
+
+  "apexDescription" : "",
+  "avianDescription" : "",
+  "floranDescription" : "",
+  "glitchDescription" : "",
+  "humanDescription" : "",
+  "hylotlDescription" : "",
+  "novakidDescription" : "",
+
+  "category" : "light",
+  "price" : 25,
+  "lightColor" : [255, 218, 10],
+
+  "inventoryIcon" : "pikalamp1icon.png",
+  "orientations" : [
+    {
+      "image" : "pikalamp1.png:<color>.<frame>",
+      "imagePosition" : [-1, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

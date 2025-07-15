@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_goldeen",
+  "category" : "itsb_goldeen",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

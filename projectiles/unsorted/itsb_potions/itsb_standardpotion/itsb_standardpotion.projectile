@@ -1,0 +1,30 @@
+{
+  "projectileName" : "itsb_standardpotion",
+  "physics" : "friendlybubble",
+  "bounces" : -1,
+  "image" : "itsb_standardpotion.png",
+  "fullbright" : true,
+  "lightColor" : [128, 96, 168],
+  "animationCycle" : 0.1,
+  "frameNumber" : 1,
+  "power" : 0,
+  "speed" : 0,
+  "actionOnReap" : [],
+  "onlyHitTerrain" : true,
+  "scale" : 0.5,
+
+  "orientationLocked" : true,
+
+  "timeToLive" : 8,
+
+  "scripts" : ["/projectiles/unsorted/itsb_potions/itsb_standardpotion/itsb_standardpotion.lua"],
+  "scriptDelta" : 10,
+
+  "pickupRange" : 2,
+  "snapRange" : 5,
+  "snapSpeed" : 150,
+  "snapForce" : 250,
+
+  "restoreBase" : 0,
+  "restorePercentage" : 25
+}

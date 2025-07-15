@@ -1,0 +1,12 @@
+{
+	"name" : "itsb_shivysaur",
+	"requiredResources" : {
+		"1" : {
+			"name" : "itsb_xp",
+			"type" : "droppedItem", "id" : "itsb_xp", "amount" : 1600
+		}
+	},
+	"monsterSpawn" : {
+		"type" : "itsb_shivysaur"
+	}
+}

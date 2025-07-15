@@ -1,0 +1,68 @@
+{
+  "itemName" : "itsb_bulbawhip",
+  "price" : 1000,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A vine from the bulb on a Bulbasaur, made into a whip. Hit enemies with it to poison them.",
+  "shortdescription" : "Bulba Vine",
+  "tooltipKind" : "grass_poisonelementweapon",
+  "category" : "whip",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","upgradeableWeapon"],
+
+  "inventoryIcon" : "itsb_bulbawhip.png:idle",
+  "animation" : "itsb_bulbawhip.animation",
+  "animationParts" : {
+    "weapon" : "itsb_bulbawhip.png",
+    "weaponFullbright" : ""
+  },
+  "animationCustom" : {
+    "particleEmitters" : { "crack" : {
+      "burstCount" : 3,
+      "particles" : [{"particle" : "poisonswoosh1"}]
+    }},
+    "sounds" : {
+      "swing" : [ "/sfx/melee/whip_swing1.ogg", "/sfx/melee/whip_swing2.ogg", "/sfx/melee/whip_swing3.ogg" ],
+      "crack" : [ "/sfx/melee/whip_impact1.ogg", "/sfx/melee/whip_impact2.ogg", "/sfx/melee/whip_impact3.ogg" ]
+    }
+  },
+
+  "chain" : {
+    "startOffset" : [0.625, 0.0625],
+    "length" : [4, 10],
+    "segmentImage" : "/items/active/weapons/poke_weapons/bulbawhip/itsb_bulbawhiplink.png",
+    "endSegmentImage" : "/items/active/weapons/poke_weapons/bulbawhip/itsb_bulbawhiplinkend.png",
+    "segmentSize" : 0.375
+  },
+
+  "scripts" : [ "/items/active/weapons/whip/whip.lua" ],
+
+  "elementalType" : "itsb_grass",
+
+  "primaryAbilityType" : "whipcrack",
+  "primaryAbility" : {
+    "fireTime" : 1.0,
+    "chainDps" : 1.5,
+    "crackDps" : 4.5,
+
+    "damageConfig" : {
+      "damageSourceKind" : "itsb_grass"
+    },
+
+    "projectileType" : "whipcrackitsb_poison"
+  },
+
+  "builder" : "/items/buildscripts/buildwhip.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "itsb_bulbawhip_l6.png:idle",
+    "animationParts" : {
+      "weapon" : "itsb_bulbawhip_l6.png"
+    },
+  "chain" : {
+    "endSegmentImage" : "/items/active/weapons/poke_weapons/bulbawhip/itsb_bulbawhiplinkend_l6.png"
+  },
+    "shortdescription" : "Bulba Vine ^green;^reset;"
+  }
+}

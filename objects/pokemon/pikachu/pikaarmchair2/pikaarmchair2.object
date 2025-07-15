@@ -1,0 +1,48 @@
+{
+  "objectName" : "pikaarmchair2",
+  "colonyTags" : ["pokemon"],
+  "rarity" : "Common",
+  "description" : "A armchair made with Pikachu fur. So soft and cuddly.",
+  "shortdescription" : "Soft Pikachu Armchair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 85,
+
+  "apexDescription" : "",
+  "avianDescription" : "",
+  "floranDescription" : "",
+  "glitchDescription" : "",
+  "humanDescription" : "",
+  "hylotlDescription" : "",
+  "novakidDescription" : "",
+
+  "inventoryIcon" : "pikaarmchair2icon.png",
+  "orientations" : [
+    {
+      "image" : "pikaarmchair2.png:<color>",
+      "imagePosition" : [-10, 0],
+      "sitCoverImage" : "/objects/pokemon/pikachu/pikaarmchair2/pikaarmchair2cover.png",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [-3, 21],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "pikaarmchair2.png:<color>",
+      "imagePosition" : [-10, 0],
+      "sitCoverImage" : "/objects/pokemon/pikachu/pikaarmchair2/pikaarmchair2cover.png",
+      "direction" : "right",
+
+      "sitPosition" : [5, 21],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false
+}

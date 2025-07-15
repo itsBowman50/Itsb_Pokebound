@@ -1,0 +1,75 @@
+{
+  "itemName" : "npcpetitsb_snowflakeball2",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "description" : "Throw it down to release the creature captured inside!",
+  "shortdescription" : "Filled Snowflakeball",
+  "tooltipKind" : "filleditsb_snowflakeball2",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged"],
+
+  "inventoryIcon" : "filleditsb_snowflakeball2icon.png",
+  "animation" : "filleditsb_snowflakeball2.animation",
+  "animationParts" : {
+    "filleditsb_snowflakeball2" : "filleditsb_snowflakeball2.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["npcpetitsb_snowflakeball2.lua"],
+
+  "icons" : {
+    "healthy" : "/items/active/unsorted/filleditsb_snowflakeball2/filleditsb_snowflakeball2icon.png",
+    "dead" : "/items/active/unsorted/filleditsb_snowflakeball2/filleditsb_snowflakeball2icondead.png"
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "duration" : 0.1,
+      "transitionFunction" : "fire",
+      "armRotation" : 70,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "throw" : {
+      "armRotation" : 0,
+      "animationState" : {
+        "weapon" : "hidden"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  },
+
+  "projectileType" : "filleditsb_snowflakeball2",
+  "projectileParameters" : {
+    "speed" : 40,
+    "level" : 0
+  },
+
+  "pets" : [
+    "itsb_caterpie",
+    "itsb_eevee",
+    "itsb_jolteon",
+    "itsb_flareon",
+    "itsb_pikachu",
+    "itsb_charmander",
+    "itsb_bulbasaur",
+    "itsb_ivysaur",
+    "itsb_venusaur",
+    "itsb_oddish",
+    "itsb_mew",
+    "itsb_spearow",
+    "itsb_pikatop"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "redapricorn",
+  "price" : 75,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "redapricorn.png",
+  "description" : "These are red apricorns. They are use to make different types of Pokeballs.",
+  "shortdescription" : "Red Apricorn",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [ "itsb_pokeball", "itsb_transball", "pokehealingstation", "transballhealing" ]
+}

@@ -1,0 +1,61 @@
+{
+  "background" : {
+    "type" : "background",
+    "fileHeader" : "/interface/tooltips/headersnowflakeball2.png",
+    "fileBody" : "/interface/tooltips/bodysnowflakeball2.png",
+    "fileFooter" : "/interface/tooltips/footersnowflakeball2.png"
+  },
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [104, 23],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [117, 23],
+    "color" : "black",
+    "hAnchor" : "left",
+    "value" : "0"
+  },
+  "descriptionLabel" : {
+    "type" : "label",
+    "position" : [18, 102],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "wrapWidth" : 123
+  },
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [14, 23],
+    "color" : "black",
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "objectImage" : {
+    "type" : "image",
+    "position" : [75, 138],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [70, 54],
+    "minSize" : [70, 54]
+  },
+  "collarIconImage" : {
+    "type" : "image",
+    "position" : [13, 38],
+    "zlevel" : 3,
+    "file" : ""
+  },
+  "noCollarLabel" : {
+    "type" : "label",
+    "position" : [40, 42],
+    "color" : "black",
+    "value" : "NO COLLAR WORN"
+  },
+  "collarNameLabel" : {
+    "type" : "label",
+    "position" : [40, 42],
+    "color" : "black",
+    "value" : ""
+  }
+}

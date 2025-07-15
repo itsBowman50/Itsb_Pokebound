@@ -1,0 +1,254 @@
+[
+  {
+    "op": "add",
+    "path": "/itsb_bug",
+    "value": {
+      "resistanceStat": "itsb_bugResistance",
+      "damageNumberParticles": {
+        "hit": "itsb_bugdamagenumber",
+        "stronghit": "itsb_bugdamagenumberstrong",
+        "weakhit": "itsb_bugdamagenumberweak",
+        "shieldhit": "itsb_bugdamagenumber",
+        "kill": "itsb_bugdamagenumber"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/itsb_dark",
+    "value": {
+      "resistanceStat": "itsb_darkResistance",
+      "damageNumberParticles": {
+        "hit": "itsb_darkdamagenumber",
+        "stronghit": "itsb_darkdamagenumberstrong",
+        "weakhit": "itsb_darkdamagenumberweak",
+        "shieldhit": "itsb_darkdamagenumber",
+        "kill": "itsb_darkdamagenumber"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/itsb_dragon",
+    "value": {
+      "resistanceStat": "itsb_dragonResistance",
+      "damageNumberParticles": {
+        "hit": "itsb_dragondamagenumber",
+        "stronghit": "itsb_dragondamagenumberstrong",
+        "weakhit": "itsb_dragondamagenumberweak",
+        "shieldhit": "itsb_dragondamagenumber",
+        "kill": "itsb_dragondamagenumber"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/itsb_electric",
+    "value": {
+      "resistanceStat": "itsb_electricResistance",
+      "damageNumberParticles": {
+        "hit": "itsb_electricdamagenumber",
+        "stronghit": "itsb_electricdamagenumberstrong",
+        "weakhit": "itsb_electricdamagenumberweak",
+        "shieldhit": "itsb_electricdamagenumber",
+        "kill": "itsb_electricdamagenumber"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/itsb_fairy",
+    "value": {
+      "resistanceStat": "itsb_fairyResistance",
+      "damageNumberParticles": {
+        "hit": "itsb_fairydamagenumber",
+        "stronghit": "itsb_fairydamagenumberstrong",
+        "weakhit": "itsb_fairydamagenumberweak",
+        "shieldhit": "itsb_fairydamagenumber",
+        "kill": "itsb_fairydamagenumber"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/itsb_fighting",
+    "value": {
+      "resistanceStat": "itsb_fightingResistance",
+      "damageNumberParticles": {
+        "hit": "itsb_fightingdamagenumber",
+        "stronghit": "itsb_fightingdamagenumberstrong",
+        "weakhit": "itsb_fightingdamagenumberweak",
+        "shieldhit": "itsb_fightingdamagenumber",
+        "kill": "itsb_fightingdamagenumber"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/itsb_fire",
+    "value": {
+      "resistanceStat": "itsb_fireResistance",
+      "damageNumberParticles": {
+        "hit": "itsb_firedamagenumber",
+        "stronghit": "itsb_firedamagenumberstrong",
+        "weakhit": "itsb_firedamagenumberweak",
+        "shieldhit": "itsb_firedamagenumber",
+        "kill": "itsb_firedamagenumber"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/itsb_flying",
+    "value": {
+      "resistanceStat": "itsb_flyingResistance",
+      "damageNumberParticles": {
+        "hit": "itsb_electricdamagenumber",
+        "stronghit": "itsb_electricdamagenumberstrong",
+        "weakhit": "itsb_electricdamagenumberweak",
+        "shieldhit": "itsb_electricdamagenumber",
+        "kill": "itsb_electricdamagenumber"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/itsb_ghost",
+    "value": {
+      "resistanceStat": "itsb_ghostResistance",
+      "damageNumberParticles": {
+        "hit": "itsb_ghostdamagenumber",
+        "stronghit": "itsb_ghostdamagenumberstrong",
+        "weakhit": "itsb_ghostdamagenumberweak",
+        "shieldhit": "itsb_ghostdamagenumber",
+        "kill": "itsb_ghostdamagenumber"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/itsb_grass",
+    "value": {
+      "resistanceStat": "itsb_grassResistance",
+      "damageNumberParticles": {
+        "hit": "itsb_grassdamagenumber",
+        "stronghit": "itsb_grassdamagenumberstrong",
+        "weakhit": "itsb_grassdamagenumberweak",
+        "shieldhit": "itsb_grassdamagenumber",
+        "kill": "itsb_grassdamagenumber"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/itsb_ground",
+    "value": {
+      "resistanceStat": "itsb_groundResistance",
+      "damageNumberParticles": {
+        "hit": "itsb_grounddamagenumber",
+        "stronghit": "itsb_grounddamagenumberstrong",
+        "weakhit": "itsb_grounddamagenumberweak",
+        "shieldhit": "itsb_grounddamagenumber",
+        "kill": "itsb_grounddamagenumber"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/itsb_ice",
+    "value": {
+      "resistanceStat": "itsb_iceResistance",
+      "damageNumberParticles": {
+        "hit": "itsb_icedamagenumber",
+        "stronghit": "itsb_icedamagenumberstrong",
+        "weakhit": "itsb_icedamagenumberweak",
+        "shieldhit": "itsb_icedamagenumber",
+        "kill": "itsb_icedamagenumber"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/itsb_normal",
+    "value": {
+      "resistanceStat": "itsb_normalResistance",
+      "damageNumberParticles": {
+        "hit": "itsb_normaldamagenumber",
+        "stronghit": "itsb_normaldamagenumberstrong",
+        "weakhit": "itsb_normaldamagenumberweak",
+        "shieldhit": "itsb_normaldamagenumber",
+        "kill": "itsb_normaldamagenumber"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/itsb_poison",
+    "value": {
+      "resistanceStat": "itsb_poisonResistance",
+      "damageNumberParticles": {
+        "hit": "itsb_poisondamagenumber",
+        "stronghit": "itsb_poisondamagenumberstrong",
+        "weakhit": "itsb_poisondamagenumberweak",
+        "shieldhit": "itsb_poisondamagenumber",
+        "kill": "itsb_poisondamagenumber"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/itsb_psychic",
+    "value": {
+      "resistanceStat": "itsb_psychicResistance",
+      "damageNumberParticles": {
+        "hit": "itsb_psychicdamagenumber",
+        "stronghit": "itsb_psychicdamagenumberstrong",
+        "weakhit": "itsb_psychicdamagenumberweak",
+        "shieldhit": "itsb_psychicdamagenumber",
+        "kill": "itsb_psychicdamagenumber"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/itsb_rock",
+    "value": {
+      "resistanceStat": "itsb_rockResistance",
+      "damageNumberParticles": {
+        "hit": "itsb_rockdamagenumber",
+        "stronghit": "itsb_rockdamagenumberstrong",
+        "weakhit": "itsb_rockdamagenumberweak",
+        "shieldhit": "itsb_rockdamagenumber",
+        "kill": "itsb_rockdamagenumber"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/itsb_steel",
+    "value": {
+      "resistanceStat": "itsb_steelResistance",
+      "damageNumberParticles": {
+        "hit": "itsb_steeldamagenumber",
+        "stronghit": "itsb_steeldamagenumberstrong",
+        "weakhit": "itsb_steeldamagenumberweak",
+        "shieldhit": "itsb_steeldamagenumber",
+        "kill": "itsb_steeldamagenumber"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/itsb_water",
+    "value": {
+      "resistanceStat": "itsb_waterResistance",
+      "damageNumberParticles": {
+        "hit": "itsb_waterdamagenumber",
+        "stronghit": "itsb_waterdamagenumberstrong",
+        "weakhit": "itsb_waterdamagenumberweak",
+        "shieldhit": "itsb_waterdamagenumber",
+        "kill": "itsb_waterdamagenumber"
+      }
+    }
+  }
+]

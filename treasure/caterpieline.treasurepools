@@ -1,0 +1,79 @@
+{
+	"itsb_caterpieTreasure" : [
+    [1, {
+        "pool" : [
+            {"weight" : 0.800, "item" : "rawpoultry"},
+		        {"weight" : 0.199, "pool" : "itsb_xp"},
+		        {"weight" : 0.001, "item" : "caterpiePF"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ],
+	"itsb_caterpieHunting" : [
+    [1, {
+        "pool" : [
+            {"weight" : 0.800, "item" : "leather"},
+		        {"weight" : 0.199, "pool" : "itsb_xp"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ],
+
+	"itsb_metapodTreasure" : [
+    [1, {
+        "pool" : [
+            {"weight" : 0.800, "item" : "rawpoultry"},
+		        {"weight" : 0.199, "pool" : "itsb_xp"},
+		        {"weight" : 0.001, "item" : "metapodPF"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ],
+	"itsb_metapodHunting" : [
+    [1, {
+        "pool" : [
+            {"weight" : 0.800, "item" : "leather"},
+		        {"weight" : 0.199, "pool" : "itsb_xp"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ],
+
+	"itsb_butterfreeTreasure" : [
+    [1, {
+        "pool" : [
+            {"weight" : 0.800, "item" : "rawpoultry"},
+		        {"weight" : 0.199, "pool" : "itsb_xp"},
+		        {"weight" : 0.001, "item" : "metapodPF"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ],
+	"itsb_butterfreeHunting" : [
+    [1, {
+        "pool" : [
+            {"weight" : 0.800, "item" : "leather"},
+		        {"weight" : 0.199, "pool" : "itsb_xp"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]
+        ]
+    }]
+    ]
+}

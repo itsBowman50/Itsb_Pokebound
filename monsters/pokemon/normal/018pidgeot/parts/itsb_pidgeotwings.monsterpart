@@ -1,0 +1,10 @@
+{
+  "name" : "itsb_pidgeotwings",
+  "category" : "itsb_pidgeot",
+  "type" : "wings",
+
+  "frames" : {
+    "backWings" : "itsb_pidgeotbw.png",
+    "frontWings" : "itsb_pidgeotfw.png"
+  }
+}

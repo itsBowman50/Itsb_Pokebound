@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_pikatop",
+  "category" : "itsb_pikatop",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_pikatop.png"
+  }
+}

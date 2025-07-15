@@ -1,0 +1,11 @@
+{
+  "itemName" : "pinkapricorn",
+  "price" : 75,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pinkapricorn.png",
+  "description" : "These are pink apricorns. They are use to make different types of Pokeballs.",
+  "shortdescription" : "Pink Apricorn",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [ "itsb_masterball" ]
+}

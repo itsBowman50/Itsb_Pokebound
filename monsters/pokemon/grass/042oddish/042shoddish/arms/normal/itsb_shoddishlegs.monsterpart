@@ -1,0 +1,10 @@
+{
+  "name" : "itsb_shoddishlegs",
+  "category" : "itsb_shoddish",
+  "type" : "arms",
+
+  "frames" : {
+    "frontArm" : "itsb_shoddishfleg.png",
+    "backArm" : "itsb_shoddishbleg.png"
+  }
+}

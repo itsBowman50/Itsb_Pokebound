@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_shpikachu",
+  "category" : "itsb_shpikachu",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_shpikachu.png"
+  }
+}

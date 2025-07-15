@@ -1,0 +1,31 @@
+{
+  "name" : "itsbowman_pokedex",
+  "title" : "^red;Pokedex^white;",
+  "type" : "monster",
+
+   "collectables" : {
+
+
+	"itsb_bulbasaur" : { "order" : 1, "monsterType" : "itsb_bulbasaur", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/itsb_bulbasauricon.png" },
+	"itsb_ivysaur" : { "order" : 2, "monsterType" : "itsb_ivysaur", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/itsb_ivysauricon.png" },
+	"itsb_venusaur" : { "order" : 3, "monsterType" : "itsb_venusaur", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/itsb_venusauricon.png" },
+	"itsb_charmander" : { "order" : 4, "monsterType" : "itsb_charmander", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/itsb_charmandericon.png" },
+	"itsb_squirtle" : { "order" : 5, "monsterType" : "itsb_squirtle", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/itsb_squirtleicon.png" },
+	"itsb_caterpie" : { "order" : 6, "monsterType" : "itsb_caterpie", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/itsb_caterpieicon.png" },
+	"itsb_metapod" : { "order" : 7, "monsterType" : "itsb_metapod", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/itsb_metapodicon.png" },
+	"itsb_butterfree" : { "order" : 8, "monsterType" : "itsb_butterfree", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/itsb_butterfreeicon.png" },
+	"itsb_pidgey" : { "order" : 9, "monsterType" : "itsb_pidgey", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/itsb_pidgeyicon.png" },
+	"itsb_pidgeotto" : { "order" : 10, "monsterType" : "itsb_pidgeotto", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/itsb_pidgeottoicon.png" },
+	"itsb_pidgeot" : { "order" : 11, "monsterType" : "itsb_pidgeot", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/itsb_pidgeoticon.png" },
+	"itsb_spearow" : { "order" : 12, "monsterType" : "itsb_spearow", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/itsb_spearowicon.png" },
+	"itsb_pikachu" : { "order" : 13, "monsterType" : "itsb_pikachu", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/itsb_pikachuicon.png" },
+	"itsb_oddish" : { "order" : 14, "monsterType" : "itsb_oddish", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/itsb_oddishicon.png" },
+	"itsb_diglett" : { "order" : 15, "monsterType" : "itsb_diglett", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/itsb_digletticon.png" },
+	"itsb_goldeen" : { "order" : 16, "monsterType" : "itsb_goldeen", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/itsb_goldeenicon.png" },
+	"itsb_eevee" : { "order" : 17, "monsterType" : "itsb_eevee", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/itsb_eeveeicon.png" },
+	"itsb_jolteon" : { "order" :18, "monsterType" : "itsb_jolteon", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/itsb_jolteonicon.png" },
+	"itsb_flareon" : { "order" : 19, "monsterType" : "itsb_flareon", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/itsb_flareonicon.png" },
+	"itsb_mew" : { "order" : 20, "monsterType" : "itsb_mew", "icon" : "/interface/scripted/itsb_pokedex/pokemonicons/itsb_mewicon.png" }
+
+	}
+}

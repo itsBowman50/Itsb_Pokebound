@@ -1,0 +1,20 @@
+{
+  "itemName" : "cheriberry",
+  "rarity" : "Common",
+  "price" : 80,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "cheriberry.png",
+  "description" : "Blooms with delicate pretty flowers. The bright red berry is very spicy.",
+  "shortdescription" : "Cheri Berry",
+  "foodValue" : 2.5,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 100,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "cheriberryshake" ]
+}

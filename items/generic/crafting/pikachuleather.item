@@ -1,0 +1,20 @@
+{
+  "itemName" : "pikachuleather",
+  "price" : 50,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pikachuleather.png",
+  "description" : "The hide of a Pikachu.",
+  "shortdescription" : "Pikachu Leather",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [ "pikaarmchair2",
+                                "pikabed",
+                                "pikacouch2",
+                                "pikalamp1",
+                                "pikalamp2",
+                                "pikalamp3",
+                                "itsb_pikachuback",
+                                "itsb_pikachuchest",
+                                "itsb_pikachuhead",
+                                "itsb_pikachupants" ]
+}

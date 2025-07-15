@@ -1,0 +1,48 @@
+{
+  "type" : "itsb_pokemontrainer",
+  "baseType" : "hostile",
+
+  "dropPools" : [ "banditTreasure"  ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Attack!"
+          ]
+        },
+        "human" : {
+          "default" : [
+            "Battle Me!",
+            "I want to be the very best, the best there ever was!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "itsb_bulbasaurhead"},
+                       { "name" : "itsb_pikachuhead" } ],
+            "chest" : [ { "name" : "itsb_pikachuchest" },
+                       { "name" : "itsb_bulbasaurchest" } ],
+            "legs" : [ { "name" : "itsb_pikachupants" },
+                       { "name" : "itsb_bulbasaurpants" } ],
+            "back" : [ { "name" : "itsb_pikachuback" }],
+            "primary" : [ "npcpetfilleditsb_pokeball",
+                          "npcpetitsb_greatball",
+                          "npcpetitsb_ultraball",
+                          "npcpetitsb_masterball",
+                          "itsb_pikasword",
+                          "itsb_bulbawhip"
+             ]
+          }
+
+        ] ]
+    ]
+  }
+}

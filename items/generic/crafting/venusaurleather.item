@@ -1,0 +1,10 @@
+{
+  "itemName" : "venusaurleather",
+  "price" : 50,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "venusaurleather.png",
+  "description" : "The hide of a Venusaur.",
+  "shortdescription" : "Venusaur Leather",
+  "itemTags" : [ "reagent" ]
+}

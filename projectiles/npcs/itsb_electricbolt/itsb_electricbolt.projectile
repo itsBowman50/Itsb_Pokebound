@@ -1,0 +1,15 @@
+{
+  "projectileName" : "itsb_electricbolt",
+  "image" : "itsb_electricbolt.png",
+  "physics" : "grenade",
+  "animationCycle" : 0.75,
+  "frameNumber" : 2,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "power" : 5.0,
+  "speed" : 50,
+  "damageKind" : "itsb_electric",
+  "emitters" : [],
+
+  "renderLayer" : "Monster+50"
+}

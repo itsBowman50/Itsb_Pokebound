@@ -1,0 +1,290 @@
+[
+{
+  "op": "add",
+  "path": "/surface/0/1/-",
+  "value": [
+    "poisonpokenite",
+    0.1
+  ]
+},
+{
+  "op": "add",
+  "path": "/surface/1/1/-",
+  "value": [
+    "poisonpokenite",
+    0.2
+  ]
+},
+{
+  "op": "add",
+  "path": "/surface/2/1/-",
+  "value": [
+    "poisonpokenite",
+    0.3
+  ]
+},
+{
+  "op": "add",
+  "path": "/surface/3/1/-",
+  "value": [
+    "poisonpokenite",
+    0.4
+  ]
+},
+{
+  "op": "add",
+  "path": "/surface/4/1/-",
+  "value": [
+    "poisonpokenite",
+    0.5
+  ]
+},
+{
+  "op": "add",
+  "path": "/surface/5/1/-",
+  "value": [
+    "poisonpokenite",
+    0.6
+  ]
+},
+{
+  "op": "add",
+  "path": "/surface/0/1/-",
+  "value": [
+    "grasspokenite",
+    0.1
+  ]
+},
+{
+  "op": "add",
+  "path": "/surface/1/1/-",
+  "value": [
+    "grasspokenite",
+    0.2
+  ]
+},
+{
+  "op": "add",
+  "path": "/surface/2/1/-",
+  "value": [
+    "grasspokenite",
+    0.3
+  ]
+},
+{
+  "op": "add",
+  "path": "/surface/3/1/-",
+  "value": [
+    "grasspokenite",
+    0.4
+  ]
+},
+{
+  "op": "add",
+  "path": "/surface/4/1/-",
+  "value": [
+    "grasspokenite",
+    0.5
+  ]
+},
+{
+  "op": "add",
+  "path": "/surface/5/1/-",
+  "value": [
+    "grasspokenite",
+    0.6
+  ]
+},
+  {
+    "op": "add",
+    "path": "/surface/0/1/-",
+    "value": [
+      "electricpokenite",
+      0.1
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/1/1/-",
+    "value": [
+      "electricpokenite",
+      0.2
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/2/1/-",
+    "value": [
+      "electricpokenite",
+      0.3
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/3/1/-",
+    "value": [
+      "electricpokenite",
+      0.4
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/4/1/-",
+    "value": [
+      "electricpokenite",
+      0.5
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/5/1/-",
+    "value": [
+      "electricpokenite",
+      0.6
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/0/1/-",
+    "value": [
+      "itsb_waterstone",
+      0.1
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/1/1/-",
+    "value": [
+      "itsb_waterstone",
+      0.1
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/2/1/-",
+    "value": [
+      "itsb_waterstone",
+      0.2
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/3/1/-",
+    "value": [
+      "itsb_waterstone",
+      0.2
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/4/1/-",
+    "value": [
+      "itsb_waterstone",
+      0.3
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/5/1/-",
+    "value": [
+      "itsb_waterstone",
+      0.3
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/0/1/-",
+    "value": [
+      "itsb_firestone",
+      0.1
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/1/1/-",
+    "value": [
+      "itsb_firestone",
+      0.1
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/2/1/-",
+    "value": [
+      "itsb_firestone",
+      0.2
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/3/1/-",
+    "value": [
+      "itsb_firestone",
+      0.2
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/4/1/-",
+    "value": [
+      "itsb_firestone",
+      0.3
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/5/1/-",
+    "value": [
+      "itsb_firestone",
+      0.3
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/0/1/-",
+    "value": [
+      "itsb_thunderstone",
+      0.1
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/1/1/-",
+    "value": [
+      "itsb_thunderstone",
+      0.1
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/2/1/-",
+    "value": [
+      "itsb_thunderstone",
+      0.2
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/3/1/-",
+    "value": [
+      "itsb_thunderstone",
+      0.2
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/4/1/-",
+    "value": [
+      "itsb_thunderstone",
+      0.3
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/surface/5/1/-",
+    "value": [
+      "itsb_thunderstone",
+      0.3
+    ]
+  }
+]

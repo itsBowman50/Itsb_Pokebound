@@ -1,0 +1,236 @@
+{
+  "type" : "itsb_shoddish",
+  "shortdescription" : "^yellow;Oddish^white;",
+  "description" : "Buries itself during the day and roams around at night. It shrieks if you pull it out of the ground.",
+
+  "categories" : [ "itsb_shoddish" ],
+  "parts" : [ "chest", "arms", "head" ],
+  "partParameters" : "itsb_shoddish.partparams",
+
+  "animation" : "itsb_shoddish.animation",
+  "reversed" : true,
+
+  "dropPools" : [
+    {
+      "default" : "itsb_oddishTreasure",
+      "bow" : "itsb_oddishHunting",
+      "brain" : "itsb_oddishTreasure"
+    }
+  ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/monster.lua"
+    ],
+
+    "behavior" : "monster",
+
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+
+      "targetQueryRange" : 30,
+      "targetOnDamage" : true,
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 50,
+      "targetOutOfSightTime" : 2.5,
+
+      "foundTargetActions" : [ { "name" : "action-aggrohop" } ],
+
+      "approachActions" : [
+        {
+          "name" : "approach-walk",
+          "parameters" : {
+            "canJump" : true,
+            "maxJumps" : 6,
+            "jumpXVelocity" : 12,
+            "jumpYVelocity" : 30,
+            "jumpXControlForce" : 50,
+            "fallState" : "jump",
+            "moveState" : "run",
+            "run" : true
+          }
+        }
+      ],
+
+      "followActions" : [
+        {
+          "name" : "approach-teleport",
+          "parameters" : {
+          }
+        },
+        {
+          "name" : "approach-walk",
+          "parameters" : {
+            "canJump" : true,
+            "maxJumps" : 3,
+            "jumpXVelocity" : 12,
+            "jumpYVelocity" : 30,
+            "jumpXControlForce" : 50,
+            "fallState" : "jump",
+            "moveState" : "run",
+            "run" : true
+          }
+        }
+      ],
+
+      "wanderActions" : [
+        {
+          "name" : "wander-walk",
+          "cooldown" : 6.0,
+          "parameters" : {
+            "wanderTime" : [3, 9]
+          }
+        }
+      ]
+    },
+
+    "skillCount" : 4,
+    "baseSkills" : [ "chargeAttack", "pounceAttack" ],
+  ///  "specialSkills" : [ "shockingWaveAttack", "staticDischargeAttack", "bubbleBlastAttack", "waterGunAttack", "burninghaloAttack", "gasBelchAttack", "rainbowVomitAttack", "shockingBoltAttack", "plasmaTorpedoAttack", "eyeballSprayAttack", "bloodVomitAttack", "acidicSpitAttack", "fireballAttack", "icerockShotAttack", "doubleBarbSprayAttack", "miniDragonBreathAttack", "acidSprayAttack", "beamBurstAttack", "plasmaSweepAttack", "eyeballShotAttack", "glitterAttack", "darkGravityBallAttack", "fireSwirlAttack", "rockRollAttack", "iceBlastAttack", "snotBubbleAttack", "leafyGustAttack", "mudBallAttack", "lightBallAttack", "shardSprayAttack", "blueFlameAttack", "smokeRingAttack", "putridWaveAttack", "boneRainAttack", "orbOfZotsAttack", "snotShotAttack", "fishBreathAttack", "explosivePhlegmAttack", "cellBlastAttack" ],
+
+    "knockoutTime" : 0.1,
+    "knockoutEffect" : "blink",
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+
+    "scale" : 0.42,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [0.75, 1.25], [1.25, 0.75], [1.25, -1.30], [0.75, -1.80], [-0.75, -1.80], [-1.25, -1.30], [-1.25, 0.75], [-0.75, 1.25] ],
+      "mass" : 1.6,
+      "walkSpeed" : 5.0,
+      "runSpeed" : 13.0
+    },
+
+    "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5],
+
+    "touchDamage" : {
+      "poly" : [ [0.75, 1.25], [1.25, 0.75], [1.25, -0.75], [0.75, -1.25], [-0.75, -1.25], [-1.25, -0.75], [-1.25, 0.75], [-0.75, 1.25] ],
+	  "damage" : 10,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "slash",
+      "knockback" : 20,
+      "statusEffects" : [ ]
+    },
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 45
+        },
+        "maxShield" : {
+          "baseValue" : 0.0
+        },
+        "protection" : {
+          "baseValue" : 15
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        },
+        "shieldRegen" : {
+          "baseValue" : 0.0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        },
+        "itsb_bugResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_dragonResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_fairyResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_electricResistance" : {
+          "baseValue" : 0.5
+        },
+        "itsb_fightingResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_fireResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_flyingResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_ghostResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_grassResistance" : {
+          "baseValue" : 0.5
+        },
+        "itsb_iceResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_groundResistance" : {
+          "baseValue" : 0.5
+        },
+        "itsb_normalResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_poisonResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_psychicResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_rockResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_steelResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_waterResistance" : {
+          "baseValue" : 0.5
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        },
+        "shieldHealth" : {
+          "maxStat" : "maxShield",
+          "deltaStat" : "shieldRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0.5, 0.5],
+    "feetOffset" : [0, -21],
+    "capturable" : true,
+    "captureHealthFraction" : 0.5,
+    "nametagColor" : [141, 217, 80],
+    "captureCollectables" : { "itsbowman_shpokedex" : "itsb_shoddish" }
+  }
+}

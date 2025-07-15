@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_shpikatop",
+  "category" : "itsb_shpikatop",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_shpikatop.png"
+  }
+}

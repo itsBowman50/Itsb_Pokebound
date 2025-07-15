@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_sheevee",
+  "category" : "itsb_sheevee",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_sheevee.png"
+  }
+}

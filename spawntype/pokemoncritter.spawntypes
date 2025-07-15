@@ -1,0 +1,21 @@
+[
+  {
+    "name" : "itsb_magikarp",
+
+    "spawnParameters" : {
+      "area" : "liquid",
+      "region" : "all",
+      "time" : "day"
+    },
+
+    "groupSize" : [3, 6],
+    "spawnChance" : 0.05,
+    "monsterType" : [
+      [0.99, "itsb_magikarp"],
+      [0.01, "itsb_shmagikarp"]
+    ],
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  }
+]

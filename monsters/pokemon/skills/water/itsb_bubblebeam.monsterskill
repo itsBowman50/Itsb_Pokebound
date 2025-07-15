@@ -1,0 +1,44 @@
+{
+  "name" : "itsb_bubblebeam",
+  "label" : "BUBBLE BEAM",
+  "image" : "/interface/elements/itb_water.png",
+
+  "config" : {
+    "hostileActions" : [
+{
+      "name" : "action-fire",
+      "cooldown" : 4.0,
+      "parameters" : {
+        "requireLineOfSight" : true,
+        "maximumRange" : 30,
+        "maxXRange" : 30,
+        "maxYRange" : 30,
+        "minimumRange" : 1,
+        "windupState" : "",
+        "windupTime" : 0.0,
+
+        "projectileType" : "itsb_bubblebeam",
+
+        "fireOffset" : [0, 0],
+        "aimAtTarget" : true,
+        "aimDirection" : [0, 0],
+        "inaccuracy" : 0.1,
+        "projectileCount" : 10,
+        "projectileInterval" : 0.01,
+        "fireState" : "fire",
+        "fireDelay" : 0.2,
+        "fireSound" : "",
+
+        "winddownState" : "fire",
+        "winddownTime" : 0.5
+      }
+    }
+    ]
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/charge_up15.ogg" ]
+    }
+  }
+}

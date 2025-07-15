@@ -1,0 +1,23 @@
+{
+  "frameGrid" : {
+    "size" : [75, 38],
+    "dimensions" : [9, 3],
+
+    "names" : [
+      [ "flop.1", "flop.2", null, null, null, null, null, null ],
+      [ "move.1", "move.2", "move.3", "move.4", "move.5", "move.6", "move.7", "move.8" ],
+      [ "melee.1", "melee.2", "melee.3", "melee.4", null, "ranged.1", null, null ]
+    ]
+  },
+
+  "aliases" : {
+    "idle.1" : "move.1",
+    "idle.2" : "move.2",
+    "idle.3" : "move.3",
+    "idle.4" : "move.4",
+    "idle.5" : "move.5",
+    "idle.6" : "move.6",
+    "idle.7" : "move.7",
+    "idle.8" : "move.8"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "objectName" : "pokecraftstation",
+  "colonyTags" : [],
+  "rarity" : "Uncommon",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/pokecraftstation.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "PokeCraft Station",
+        "subtitle" : "For all your Pokemon crafting needs",
+        "icon" : {
+          "file" : "/interface/crafting/pokecraftstation.png"
+        }
+      }
+    },
+    "filter" : [ "pokecraftstation" ]
+  },
+  "printable" : false,
+  "description" : "Used to make Pokeballs and other Pokemon related items.",
+  "shortdescription" : "^orange;PokeCraft Station^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 160,
+
+  "lightColor" : [77, 110, 128],
+  "lightPosition" : [0, 1],
+
+  "flickerPeriod" : 0.8,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1.00,
+  "flickerPeriodVariance" : 0.0,
+  "flickerIntensityVariance" : 0.0,
+
+  "apexDescription" : "I can craft Pokeballs here.",
+  "avianDescription" : "This will allow me to craft Pokeballs.",
+  "floranDescription" : "Floran capture creatures sssometimes!",
+  "glitchDescription" : "Excited. With this, I can craft Pokeballs!",
+  "humanDescription" : "Cool, maybe I can capture an army of Bulbasaurs.",
+  "hylotlDescription" : "To capture a Pokemon is to enter into a strong and loyal friendship.",
+  "novakidDescription" : "Capturin' Pokeballs will be child's play with Pokeballs.",
+
+  "inventoryIcon" : "pokecraftstationicon.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "pokecraftstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "pokecraftstationlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 21,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "pokecraftstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "pokecraftstationlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+
+      "frames" : 21,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

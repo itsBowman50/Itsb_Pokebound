@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_venusaur",
+  "category" : "itsb_venusaur",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_venusaur.png"
+  }
+}

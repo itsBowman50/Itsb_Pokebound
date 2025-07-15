@@ -1,0 +1,10 @@
+{
+  "itemName" : "templateleather",
+  "price" : 50,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "templateleather.png",
+  "description" : "A square of leather.",
+  "shortdescription" : "Leather",
+  "itemTags" : [ "reagent" ]
+}

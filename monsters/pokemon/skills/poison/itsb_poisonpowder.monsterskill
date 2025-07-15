@@ -1,0 +1,42 @@
+{
+  "name" : "itsb_poisonpowderseed",
+  "label" : "POISON POWDER",
+  "image" : "/interface/elements/itb_poison.png",
+
+  "config" : {
+    "hostileActions" : [
+      {
+        "name" : "action-fire",
+        "cooldown" : 3.0,
+        "parameters" : {
+          "requireLineOfSight" : true,
+          "maximumRange" : 8,
+          "minimumRange" : 0,
+          "windupState" : "",
+          "windupTime" : 0.0,
+
+          "projectileType" : "itsb_poisonpowderseed",
+          "projectileParameters" : {},
+          "fireOffset" : [0.0, 0.0],
+          "aimAtTarget" : false,
+          "aimDirection" : [0, 1],
+          "inaccuracy" : 0.5,
+          "projectileCount" : 15,
+          "projectileInterval" : 0.01,
+          "fireState" : "fire",
+          "fireDelay" : 0.5,
+          "fireSound" : "fire",
+
+          "winddownState" : "",
+          "winddownTime" : 0.2
+        }
+      }
+    ]
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/charge_up15.ogg" ]
+    }
+  }
+}

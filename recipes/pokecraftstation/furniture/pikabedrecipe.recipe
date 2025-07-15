@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "apexbed", "count" : 1 },
+    { "item" : "pikachuleather", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "pikabed",
+    "count" : 1
+  },
+  "groups" : [ "pokecraftstation", "other" ]
+}

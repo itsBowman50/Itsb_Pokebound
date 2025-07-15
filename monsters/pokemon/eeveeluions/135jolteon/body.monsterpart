@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_jolteon",
+  "category" : "itsb_jolteon",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_jolteon.png"
+  }
+}

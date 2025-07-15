@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_shmagikarp",
+  "category" : "itsb_shmagikarp",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

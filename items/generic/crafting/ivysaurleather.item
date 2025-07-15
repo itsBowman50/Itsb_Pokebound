@@ -1,0 +1,10 @@
+{
+  "itemName" : "ivysaurleather",
+  "price" : 50,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "ivysaurleather.png",
+  "description" : "The hide of a Ivysaur.",
+  "shortdescription" : "Ivysaur Leather",
+  "itemTags" : [ "reagent" ]
+}

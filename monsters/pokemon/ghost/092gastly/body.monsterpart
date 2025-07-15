@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_gastly",
+  "category" : "itsb_gastly",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_gastly.png"
+  }
+}

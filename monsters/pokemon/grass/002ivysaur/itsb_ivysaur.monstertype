@@ -1,0 +1,257 @@
+{
+  "type" : "itsb_ivysaur",
+  "shortdescription" : "Ivysaur",
+  "description" : "A sweet scent wafts around it when it is on the verge of evolving, and when it charges its energy from sunlight.",
+
+  "categories" : [ "itsb_ivysaur" ],
+  "parts" : [ "body" ],
+
+  "animation" : "itsb_ivysaur.animation",
+
+  "dropPools" : [ { "default" : "itsb_ivysaurTreasure", "bow" : "itsb_ivysaurHunting" } ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/monster.lua",
+      "/scripts/golemancer/gol_monstermain.lua"
+    ],
+
+    "behavior" : "monster",
+
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+
+      "targetQueryRange" : 20,
+      "targetOnDamage" : true,
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 50,
+      "targetOutOfSightTime" : 2.5,
+
+      "foundTargetActions" : [ { "name" : "action-aggrohop" } ],
+
+      "fleeActions" : [],
+
+      "hostileActions" : [
+        {
+          "name" : "action-fire",
+          "parameters" : {
+            "requireLineOfSight" : true,
+            "maximumRange" : 20,
+            "minimumRange" : 0,
+            "windupTime" : 0.5,
+
+            "projectileType" : "watergun",
+            "power" : 10,
+            "fireOffset" : [0.775, 0.625],
+            "aimAtTarget" : true,
+            "fireState" : "fire",
+            "fireDelay" : 0.2,
+            "fireSound" : "fire",
+
+            "fireArc": true,
+            "projectileSpeed": 50,
+            "gravityMultiplier": 0.6,
+
+            "winddownState" : "",
+            "winddownTime" : 2
+          }
+        }
+      ],
+
+      "periodicActions" : [],
+
+      "approachActions" : [
+        {
+          "name" : "approach-walk",
+          "parameters" : {
+            "canJump" : true,
+            "maxJumps" : 6,
+            "jumpXVelocity" : 12,
+            "jumpYVelocity" : 30,
+            "jumpXControlForce" : 50,
+            "minXRange" : 10
+          }
+        }
+      ],
+
+      "followActions" : [
+        {
+          "name" : "approach-teleport",
+          "parameters" : {
+          }
+        },
+        {
+          "name" : "approach-walk",
+          "parameters" : {
+            "canJump" : true,
+            "maxJumps" : 3,
+            "jumpXVelocity" : 12,
+            "jumpYVelocity" : 30,
+            "jumpXControlForce" : 50
+          }
+        }
+      ],
+
+      "wanderActions" : [
+        {
+          "name" : "wander-walk",
+          "cooldown" : 2.0,
+          "parameters" : {
+            "wanderTime" : [5, 6]
+          }
+        }
+      ]
+    },
+
+    "touchDamage" : {
+      "poly" : [ [0.90, 0.90], [0.90, -0.90], [-0.90, -0.90], [-0.90, 0.90] ],
+	  "damage" : 11,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "slash",
+      "knockback" : 20,
+      "statusEffects" : [ ]
+    },
+
+    "metaBoundBox" : [-4.0, -4.0, 4.0, 4.0],
+    "scale" : 0.55,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [1, 1.65], [1.65, 1], [1.65, -1], [1, -1.65], [-1, -1.65], [-1.65, -1], [-1.65, 1], [-1, 1.65] ],
+
+      "mass" : 1.0,
+      "walkSpeed" : 3,
+      "runSpeed" : 5,
+
+      "airFriction" : 0,
+
+      "airJumpProfile" : {
+        "jumpSpeed" : 45.0,
+        "jumpInitialPercentage" : 1.0,
+        "jumpHoldTime" : 0.0
+      }
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 0.3,
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+
+    "knockoutEffect" : "",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 60
+        },
+        "protection" : {
+          "baseValue" : 23
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        },
+        "itsb_bugResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_dragonResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_fairyResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_electricResistance" : {
+          "baseValue" : 0.5
+        },
+        "itsb_fightingResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_fireResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_flyingResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_ghostResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_grassResistance" : {
+          "baseValue" : 0.5
+        },
+        "itsb_iceResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_groundResistance" : {
+          "baseValue" : 0.5
+        },
+        "itsb_normalResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_poisonResistance" : {
+          "baseValue" : -1.0
+        },
+        "itsb_psychicResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_rockResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_steelResistance" : {
+          "baseValue" : 0.0
+        },
+        "itsb_waterResistance" : {
+          "baseValue" : 0.5
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -6],
+    "capturable" : true,
+    "captureHealthFraction" : 0.2,
+    "nametagColor" : [140, 215, 81],
+    "captureCollectables" : { "itsbowman_pokedex" : "itsb_ivysaur" },
+    "evolutions": [ "/scripts/golemancer/evolutions/itsb_venusaur.evo" ],
+    "tickEvoTime": 2
+
+  }
+}

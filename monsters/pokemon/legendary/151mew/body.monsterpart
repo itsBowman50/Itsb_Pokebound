@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_mew",
+  "category" : "itsb_mew",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_mew.png"
+  }
+}

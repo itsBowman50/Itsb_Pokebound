@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_raichutail",
+  "category" : "itsb_raichu",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "itsb_raichutail.png"
+  }
+}

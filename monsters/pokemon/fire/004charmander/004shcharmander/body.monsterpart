@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_shcharmander",
+  "category" : "itsb_shcharmander",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_shcharmander.png"
+  }
+}

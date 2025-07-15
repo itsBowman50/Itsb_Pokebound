@@ -1,0 +1,16 @@
+{
+  "name" : "itsb_weakness",
+  "effectConfig" : {
+    "powerModifier" : -0.10
+  },
+  "defaultDuration" : 4,
+
+  "scripts" : [
+    "itsb_weakness.lua"
+  ],
+
+  "animationConfig" : "itsb_weakness.animation",
+
+  "label" : "Weakness",
+  "icon" : "/interface/statuses/itsb_weakness.png"
+}

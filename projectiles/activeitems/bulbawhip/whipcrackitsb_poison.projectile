@@ -1,0 +1,18 @@
+{
+  "projectileName" : "whipcrackitsb_poison",
+  "physics" : "illusion",
+  "image" : "whipcrackitsb_poison.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 4,
+  "timeToLive" : 0.25,
+  "power" : 50,
+  "speed" : 0,
+  "piercing" : true,
+  "actionOnReap" : [],
+  "lightColor" : [140, 215, 81],
+  "damageKind" : "itsb_grass",
+  "damagePoly" : [ [-6, 0], [0, 6], [6, 0], [0, -6] ],
+  "statusEffects" : ["itsb_weakpoison"],
+  "knockback" : 10,
+  "knockbackDirectional" : true
+}

@@ -1,0 +1,15 @@
+{
+	"itemName" : "itsb_pikaears",
+  "price" : 500,
+	"inventoryIcon" : "icons.png:head",
+	"maxStack" : 1,
+	"rarity" : "uncommon",
+  "category" : "headwear",
+	"description" : "Thears of a Pikachu. How terrible!",
+	"shortdescription" : "Pikachu Ears",
+	"tooltipKind" : "armor",
+
+	"maleFrames" : "head.png",
+	"femaleFrames" : "head.png",
+	"mask" : "mask.png"
+}

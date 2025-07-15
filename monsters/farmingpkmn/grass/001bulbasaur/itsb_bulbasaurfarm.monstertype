@@ -1,0 +1,108 @@
+{
+  "type" : "itsb_bulbasaurfarm",
+  "shortdescription" : "Bulbasaur",
+  "description" : "Once ready to harvest the bulb on its back will change to a yellow color.",
+
+  "categories" : [ "itsb_bulbasaurfarm" ],
+  "parts" : [ "body" ],
+
+  "animation" : "itsb_bulbasaurfarm.animation",
+  "reversed" : false,
+
+  "dropPools" : [ { "default" : "itsb_bulbasaurTreasure" } ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/monster.lua",
+      "/scripts/golemancer/gol_monstermain.lua"
+    ],
+
+    "persistent" : true,
+
+    "behavior" : "farmable",
+
+    "harvestTime" : [500, 900],
+    "harvestSpawnOffset" : [0, 0],
+    "harvestPool" : "itsb_bulbasaurHarvest",
+
+    "metaBoundBox" : [-2.0, -2.0, 2.0, 2.0],
+    "scale" : 0.5,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [1.25, 1.25], [1.75, 0.75], [1.75, -1.25], [1.25, -1.75], [-0.75, -1.75], [-1.25, -1.25], [-1.25, 0.75], [-0.75, 1.25] ],
+
+      "mass" : 1.0,
+      "walkSpeed" : 3,
+      "runSpeed" : 5,
+      "jumpSpeed" : 5
+    },
+
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 0.1,
+    "knockoutEffect" : "",
+    "deathParticles" : "deathPoof",
+
+    "damageTeamType" : "friendly",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 45
+        },
+        "protection" : {
+          "baseValue" : 49
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -2],
+    "capturable" : false,
+    "relocatable" : true,
+    "nametagColor" : [140, 215, 81],
+    "evolutions": [ "/scripts/golemancer/evolutions/itsb_bulbasaur_attack.evo" ],
+    "tickEvoTime": 1
+  }
+}

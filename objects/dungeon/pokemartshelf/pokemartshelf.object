@@ -1,0 +1,35 @@
+{
+  "objectName" : "pokemartshelf",
+  "colonyTags" : ["pokemon","commerce"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 90,
+  "description" : "A shelf with miscellaneous Pokemon items on it.",
+  "shortdescription" : "PokeMart Shelf",
+  "race" : "apex",
+
+  "apexDescription" : "",
+  "avianDescription" : "",
+  "floranDescription" : "",
+  "glitchDescription" : "",
+  "humanDescription" : "",
+  "hylotlDescription" : "",
+  "novakidDescription" : "",
+
+  "inventoryIcon" : "pokemartshelficon.png",
+  "orientations" : [
+    {
+      "dualImage" : "pokemartshelf.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fridge_hum.ogg"
+
+}

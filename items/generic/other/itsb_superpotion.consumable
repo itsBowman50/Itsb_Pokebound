@@ -1,0 +1,22 @@
+{
+  "itemName" : "itsb_superpotion",
+  "rarity" : "Uncommon",
+  "price" : 10,
+  "category" : "medicine",
+  "inventoryIcon" : "itsb_superpotion.png",
+  "description" : "A salve for healing minor wounds. Restores 50 health over 10 seconds.",
+  "shortdescription" : "Super Portion",
+  "effects" : [ [
+      {
+        "effect" : "salveheal"
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "bandageuse" ],
+  "blockingEffects" : [
+    "salveheal",
+    "bandageheal",
+    "medkitheal",
+    "nanowrapheal"
+  ]
+}

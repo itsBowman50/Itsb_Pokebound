@@ -1,0 +1,10 @@
+{
+  "name" : "itsb_raichuarms",
+  "category" : "itsb_raichu",
+  "type" : "arms",
+
+  "frames" : {
+    "frontArm" : "itsb_raichufa.png",
+    "backArm" : "itsb_raichuba.png"
+  }
+}

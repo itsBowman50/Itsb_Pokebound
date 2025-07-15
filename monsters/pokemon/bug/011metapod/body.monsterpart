@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_metapod",
+  "category" : "itsb_metapod",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_metapod.png"
+  }
+}

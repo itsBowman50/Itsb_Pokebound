@@ -1,0 +1,20 @@
+{
+  "itemName" : "enigmaberry",
+  "rarity" : "Rare",
+  "price" : 80,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "enigmaberry.png",
+  "description" : "A completely enigmatic berry. Appears to have the power of the stars.",
+  "shortdescription" : "Enigma Berry",
+  "foodValue" : 2.5,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 100,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "enigmaberryshake" ]
+}

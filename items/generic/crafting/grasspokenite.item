@@ -1,0 +1,12 @@
+{
+  "itemName" : "grasspokenite",
+  "price" : 50,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "grasspokenite.png",
+  "description" : "This ore almost looks as if it's swaying, like grass... Maybe you can make something with it.",
+  "shortdescription" : "Grass Pokenite Ore",
+  "itemTags" : [ "reagent" ],
+  "radioMessagesOnPickup" : [ "pickupore" ],
+  "learnBlueprintsOnPickup" : [ "itsb_bulbawhip" ]
+}

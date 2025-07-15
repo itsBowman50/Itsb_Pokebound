@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_diglett",
+  "category" : "itsb_diglett",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_diglett.png"
+  }
+}

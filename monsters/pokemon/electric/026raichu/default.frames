@@ -1,0 +1,19 @@
+{
+  "frameGrid" : {
+    "size" : [104, 84],
+    "dimensions" : [9, 3],
+
+    "names" : [
+      [ null, "idle.1", "idle.2", "idle.3", "idle.4" ],
+      [ null, "walk.1", "walk.2", "walk.3", "walk.4", "walk.5" ],
+      [ null, "jump", null, "melee.1", "melee.2", "melee.3", "melee.4", null, "rotation" ]
+    ]
+  },
+  "aliases" : {
+  	"walkbackwards.1" : "walk.5",
+  	"walkbackwards.2" : "walk.4",
+  	"walkbackwards.3" : "walk.3",
+  	"walkbackwards.4" : "walk.2",
+  	"walkbackwards.5" : "walk.1"
+  }
+}

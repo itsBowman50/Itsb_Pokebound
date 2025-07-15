@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_shsquirtle",
+  "category" : "itsb_shsquirtle",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_shsquirtle.png"
+  }
+}

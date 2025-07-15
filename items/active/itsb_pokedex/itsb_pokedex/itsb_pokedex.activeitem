@@ -1,0 +1,24 @@
+{
+  "itemName": "itsb_pokedex",
+  "level": 1,
+  "price": 500,
+  "rarity": "Legendary",
+  "description": "",
+  "shortdescription": "Pokedex",
+  "twoHanded": false,
+  "maxStack": 1,
+  "itemTags": [],
+  "inventoryIcon": "itsb_pokedex.png",
+  "animation": "itsb_pokedex.animation",
+  "animationParts": {
+    "itsb_pokedex": "itsb_pokedex.png"
+  },
+  "scripts": [
+    "/interface/scripted/itsb_pokedex/itsb_pokedexactiveitem.lua"
+  ],
+  "scriptDelta": 0,
+  "interactAction": "ScriptPane",
+  "interactData": {
+    "baseConfig": "/interface/scripted/itsb_pokedex/itsb_pokedexgui.config"
+  }
+}

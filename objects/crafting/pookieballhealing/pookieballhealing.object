@@ -1,0 +1,73 @@
+{
+  "objectName" : "pookieballhealing",
+  "colonyTags" : [],
+  "rarity" : "Legendary",
+  "printable" : false,
+  "description" : "The Pookieball healing station is used to heal Pokemon captured with Pookieballs.",
+  "shortdescription" : "^orange;Pookieball Healing Station^white;",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 750,
+  "health" : 1.5,
+
+  "objectType" : "container",
+  "slotCount" : 2,
+  "uiConfig" : "/interface/objectcrafting/pookieballhealing.config",
+  "subtitle" : "For sad pets",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "pookieballhealing.lua"],
+
+  "apexDescription" : "Machines like these are used to heal captured creatures.",
+  "avianDescription" : "How useful, I can heal any creatures I capture with this.",
+  "floranDescription" : "Floran can keep creaturesss healed with this.",
+  "glitchDescription" : "Impressed. This device can heal any captured creatures.",
+  "humanDescription" : "I can use this to heal any creature I've captured. Neat!",
+  "hylotlDescription" : "Such things are useful for ensuring excellent creature health.",
+  "novakidDescription" : "I can use this here gadget to heal captured creatures.",
+
+  "lightColor" : [242, 120, 12],
+  "lightPosition" : [0, 1],
+
+  "flickerPeriod" : 1.2,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1.00,
+  "flickerPeriodVariance" : 0.0,
+  "flickerIntensityVariance" : 0.0,
+
+  "inventoryIcon" : "pookieballhealingicon.png",
+
+  "animation" : "/objects/crafting/pookieballhealing/pookieballhealing.animation",
+  "animationParts" : {
+    "pookieballhealing" : "pookieballhealing.png",
+    "pookieballhealinglit" : "pookieballhealinglit.png",
+    "pookieballhealinglit2" : "pookieballhealinglit2.png"
+  },
+  "animationPosition" : [-6, 0],
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "pookieballhealing.png:off.<frame>", "fullbright" : true }, { "image" : "pookieballhealinglit.png:off.<frame>" }, { "image" : "pookieballhealinglit2.png:off.<frame>", "fullbright" : true } ],
+      "imagePosition" : [-6, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "pookieballhealing.png:off.<frame>", "fullbright" : true }, { "image" : "pookieballhealinglit.png:off.<frame>" }, { "image" : "pookieballhealinglit2.png:off.<frame>", "fullbright" : true } ],
+      "imagePosition" : [-6, 0],
+
+      "direction" : "right",
+
+      "frames" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

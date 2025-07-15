@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_butterfree",
+  "category" : "itsb_butterfree",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "itsb_butterfree.png"
+  }
+}

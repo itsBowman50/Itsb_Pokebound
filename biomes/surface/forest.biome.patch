@@ -1,0 +1,110 @@
+[
+
+  // Pokemon //
+  {
+    "op": "add",
+    "path": "/spawnProfile/groups/-",
+    "value": {
+      "select": 2,
+      "pool": [
+        [ 0.2, "itsb_bulbasaur" ],
+        [ 0.2, "itsb_pikachu" ],
+        [ 0.4, "itsb_oddish" ],
+        [ 0.15, "itsb_eevee" ],
+        [ 0.05, "itsb_jolteon" ]
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/spawnProfile/groups/-",
+    "value": {
+      "select": 1,
+      "pool": [
+        [ 1, "itsb_mew" ]
+      ]
+    }
+  },
+
+
+  // Berries //
+  {
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode": "floor",
+      "priority": 1,
+      "variants": 1,
+      "distribution": "/biomes/distributions.config:surfaceCrops",
+      "type": "object",
+      "objectSets": [
+        {
+          "pool": [
+            [ 1, "wildchestoseed" ]
+          ],
+          "parameters": {
+            "startingStage": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode": "floor",
+      "priority": 1,
+      "variants": 1,
+      "distribution": "/biomes/distributions.config:surfaceCrops",
+      "type": "object",
+      "objectSets": [
+        {
+          "pool": [
+            [ 1, "wildpinkapricornseed" ]
+          ],
+          "parameters": {
+            "startingStage": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode": "floor",
+      "priority": 1,
+      "variants": 1,
+      "distribution": "/biomes/distributions.config:surfaceCrops",
+      "type": "object",
+      "objectSets": [
+        {
+          "pool": [
+            [ 1, "wildenigmaberryseed" ]
+          ],
+          "parameters": {
+            "startingStage": 3
+          }
+        }
+      ]
+    }
+  },
+
+
+
+  // Dungeons //
+  {
+    "op": "add",
+    "path": "/surfacePlaceables/items/-",
+    "value": {
+      "mode": "floor",
+      "priority": 1,
+      "variants": 1,
+      "distribution": "/biomes/distributions.config:ultraRare",
+      "type": "microdungeon",
+      "microdungeons": [   "itsb_pokemart", "itsb_chestoberrybushes" ]
+    }
+  }
+]

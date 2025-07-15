@@ -1,0 +1,66 @@
+{
+  "itemName" : "npcpetitsb_primerball",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "throwableItem",
+  "description" : "Throw it down to release the creature captured inside!",
+  "shortdescription" : "Filled Primerball",
+  "tooltipKind" : "filleditsb_primerball",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged"],
+
+  "inventoryIcon" : "filleditsb_primerballicon.png",
+  "animation" : "filleditsb_primerball.animation",
+  "animationParts" : {
+    "filleditsb_primerball" : "filleditsb_primerball.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["npcpetitsb_primerball.lua"],
+
+  "icons" : {
+    "healthy" : "/items/active/unsorted/filledgreatball/filleditsb_primerballicon.png",
+    "dead" : "/items/active/unsorted/filledgreatball/filleditsb_primerballicondead.png"
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "duration" : 0.1,
+      "transitionFunction" : "fire",
+      "armRotation" : 70,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "throw" : {
+      "armRotation" : 0,
+      "animationState" : {
+        "weapon" : "hidden"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  },
+
+  "projectileType" : "filleditsb_primerball",
+  "projectileParameters" : {
+    "speed" : 40,
+    "level" : 0
+  },
+
+  "pets" : [
+    "itsb_ivysaur",
+    "itsb_jolteon",
+    "itsb_flareon",
+    "itsb_pikatop"
+  ]
+}

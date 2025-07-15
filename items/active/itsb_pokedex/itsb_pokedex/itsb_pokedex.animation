@@ -1,0 +1,16 @@
+{
+  "animatedParts": {
+    "parts": {
+      "itsb_pokedex": {
+        "properties": {
+          "centered": true,
+          "offset": [
+            0,
+            0
+          ],
+          "image": "<partImage>"
+        }
+      }
+    }
+  }
+}

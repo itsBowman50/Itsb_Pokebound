@@ -1,0 +1,30 @@
+{
+	"itsb_porygonTreasure" : [
+    [1, {
+        "pool" : [
+            {"weight" : 0.24, "item" : "processor"},
+            {"weight" : 0.24, "item" : "polymer"},
+            {"weight" : 0.24, "item" : "siliconboard"},
+            {"weight" : 0.04, "item" : "voxel1k"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]        
+        ]
+    }]
+    ],
+	"itsb_porygonHunting" : [
+    [1, {
+        "pool" : [
+            {"weight" : 0.24, "item" : "processor"},
+            {"weight" : 0.24, "item" : "polymer"},
+            {"weight" : 0.24, "item" : "siliconboard"},
+            {"weight" : 0.04, "item" : "voxel1k"}
+        ],
+        "poolRounds" : [
+            [0.95, 1],
+            [0.05, 2]        
+        ]
+    }]
+    ]
+}

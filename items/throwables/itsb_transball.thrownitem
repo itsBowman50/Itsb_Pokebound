@@ -1,0 +1,33 @@
+{
+  "itemName" : "itsb_transball",
+  "price" : 750,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "itsb_transball.png",
+  "image" : "itsb_transball.png",
+  "shortdescription" : "Transparent Pokeball",
+  "description" : "A ball thrown at wild Pokemon to catch them.",
+  "radioMessagesOnPickup" : [ "pickupcapturepod" ],
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+  "collectablesOnPickup" : { "itsbowman_pokeball" : "itsb_transball" },
+  "learnBlueprintsOnPickup" : [ "transballhealing" ],
+
+  "projectileType" : "itsb_transball",
+  "projectileConfig" : {
+    "speed" : 40,
+    "level" : 7,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "bulbasaurleather",
+  "price" : 50,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "bulbasaurleather.png",
+  "description" : "The hide of a Bulbasaur.",
+  "shortdescription" : "Bulbasaur Leather",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [ "itsb_bulbasaurhead",
+                                "itsb_bulbasaurchest",
+                                "itsb_bulbasaurpants" ]
+}

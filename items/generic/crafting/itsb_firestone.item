@@ -1,0 +1,11 @@
+{
+  "itemName" : "itsb_firestone",
+  "price" : 50,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "itsb_firestone.png",
+  "description" : "Used to evolve certain Pokemon.",
+  "shortdescription" : "Fire Stone",
+  "itemTags" : [ "reagent" ],
+  "radioMessagesOnPickup" : [ "pickupore" ]
+}

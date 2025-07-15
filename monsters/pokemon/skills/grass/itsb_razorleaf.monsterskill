@@ -1,0 +1,45 @@
+{
+  "name" : "itsb_razorleaf",
+  "label" : "RAZORLEAF",
+  "image" : "/interface/elements/itb_grass.png",
+
+  "config" : {
+    "hostileActions" : [
+      {
+        "name" : "action-fire",
+        "cooldown" : 1.0,
+        "parameters" : {
+          "requireLineOfSight" : true,
+          "maximumRange" : 20,
+          "minimumRange" : 0,
+          "windupTime" : 0.5,
+
+          "projectileType" : "itsb_razorleaf",
+          "projectileParameters" : {
+             "timeToLive" : 4.5
+          },
+          "fireOffset" : [0, 0],
+          "aimAtTarget" : true,
+          "aimDirection" : [0, 0],
+          "inaccuracy" : 0.0,
+          "projectileCount" : 1,
+          "projectileInterval" : 0.00,
+          "fireState" : "",
+          "fireDelay" : 0.2,
+          "fireSound" : "",
+          "projectileSpeed": 50,
+          "gravityMultiplier": 0.6,
+
+          "winddownState" : "fire",
+          "winddownTime" : 2
+        }
+      }
+    ]
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/charge_up15.ogg" ]
+    }
+  }
+}

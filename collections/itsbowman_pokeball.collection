@@ -1,0 +1,24 @@
+{
+  "name" : "itsbowman_pokeball",
+  "title" : "^red;Pokeball Collection^white;",
+  "type" : "item",
+
+   "collectables" : {
+
+
+	"itsb_pokeball" : { "order" : 1, "item" : "itsb_pokeball" },
+	"itsb_greatball" : { "order" : 2, "item" : "itsb_greatball" },
+	"itsb_ultraball" : { "order" : 3, "item" : "itsb_ultraball" },
+	"itsb_masterball" : { "order" : 4, "item" : "itsb_masterball" },
+	"itsb_pookieball" : { "order" : 5, "item" : "itsb_pookieball" },
+	"itsb_transball" : { "order" : 6, "item" : "itsb_transball" },
+	"itsb_oldball" : { "order" : 7, "item" : "itsb_oldball" },
+	"itsb_primerball" : { "order" : 8, "item" : "itsb_primerball" },
+	"itsb_snowflakeball" : { "order" : 9, "item" : "itsb_snowflakeball" },
+	"itsb_snowflakeball2" : { "order" : 10, "item" : "itsb_snowflakeball2" },
+	"itsb_spoopybatball" : { "order" : 11, "item" : "itsb_spoopybatball" },
+	"itsb_candycaneball" : { "order" : 12, "item" : "itsb_candycaneball" },
+	"itsb_cookieball" : { "order" : 13, "item" : "itsb_cookieball" }
+
+	}
+}

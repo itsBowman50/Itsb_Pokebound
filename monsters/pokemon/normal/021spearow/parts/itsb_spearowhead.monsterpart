@@ -1,0 +1,9 @@
+{
+  "name" : "itsb_spearowhead",
+  "category" : "itsb_spearow",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "itsb_spearowhead.png"
+  }
+}
